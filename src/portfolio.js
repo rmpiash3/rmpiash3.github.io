@@ -7,8 +7,8 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Miftaul Mannan",
-  logo_name: "Miftaul Mannan",
+  title: "Riad Mahamud Piash",
+  logo_name: "Riad Mahamud Piash",
   nickname: null,
   subTitle:
     "An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities.",
@@ -20,13 +20,13 @@ const greeting = {
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/Tasin5541",
+    link: "https://rmpiash3.github.io",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/miftaul-mannan-tasin-566543107/",
+    link: "https://www.linkedin.com/in/rmpiash4",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
