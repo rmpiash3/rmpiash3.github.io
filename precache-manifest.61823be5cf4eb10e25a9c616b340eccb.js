@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1c2ad616051e9d450b80ef68052ad0e",
+    "revision": "a6286e563ac129e099ad2e1335533e02",
     "url": "/index.html"
   },
   {
-    "revision": "0859733c9bca37f5299e",
+    "revision": "8b6cbd2e7f46663a9632",
     "url": "/static/css/main.dfe8e16e.chunk.css"
   },
   {
-    "revision": "c632dc3205b6d65a9f1b",
-    "url": "/static/js/2.280cb629.chunk.js"
+    "revision": "7070f9029ddbd5a201de",
+    "url": "/static/js/2.402ca014.chunk.js"
   },
   {
     "revision": "1cd8323dc88584766ceceaede38c57bd",
-    "url": "/static/js/2.280cb629.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.402ca014.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0859733c9bca37f5299e",
-    "url": "/static/js/main.2f0771d4.chunk.js"
+    "revision": "8b6cbd2e7f46663a9632",
+    "url": "/static/js/main.91a7187c.chunk.js"
   },
   {
     "revision": "4a4a3b393803c96cc4a3",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "e01eb11c445faccf1fef4d5ad15d610c",
+    "url": "/static/media/DUET LOgo_1.png.e01eb11c.jpg"
   },
   {
     "revision": "4457817ac2b9993c65e81aa05828fe9c",
