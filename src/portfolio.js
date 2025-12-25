@@ -312,12 +312,12 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Dhaka University of Engineering and Technology",
-      subtitle: "B.Sc. in Mechanical Engineering",
-      logo_path: "DUET LOgo_1.png",
+      title: "Ahsanullah University of Science and Technology",
+      subtitle: "B.Sc. in Computer Science and Engineering",
+      logo_path: "aust_logo.png",
       alt_name: "IIITDM Kurnool",
-      duration: "November 2021 - October 2025",
-      cgpa: "3.34 / 4.00",
+      duration: "March 2016 - January 2021",
+      cgpa: "3.855 / 4.00",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, OOP, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning and Full Stack Development.",
@@ -326,7 +326,7 @@ const degrees = {
         "⚡ I was selected for ITEE Training Program which comprised of 20 students in the CSE department.",
         "⚡ Elected as the team leader in all the group projects.",
       ],
-      website_link: "https://duet.ac.bd/",
+      website_link: "http://aust.edu/",
     },
   ],
 };
