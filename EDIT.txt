@@ -9,3 +9,6 @@ git add .
 git commit -m "Remove redirect meta tag"
 git push
 npm run deploy
+
+Deploy:
+npm run deploy

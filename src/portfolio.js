@@ -7,11 +7,11 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "RiadMahamudPiash",
-  logo_name: "RiadMahamudPiash",
+  title: "Riad Mahamud Piash",
+  logo_name: "Riad Mahamud Piash",
   nickname: null,
   subTitle:
-    "An aspiring engineer who loves to take on new projects that challenges his analytical and technological capacities.",
+    "An aspiring Engineer who loves to take on new projects that challenges his analytical and technological capacities.",
   resumeLink:
     "https://drive.google.com/file/d/1ecfeM8pNH7aLELi5EINHrX8-jY5Uqb0q/view?usp=sharing",
   portfolio_repository: "https://github.com/Tasin5541",
@@ -40,13 +40,13 @@ const socialMediaLinks = [
   {
     name: "Gmail",
     link:
-      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tasinRiadMahamudPiash@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
+      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tasinRiad Mahamud Piash@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/tasinRiadMahamudPiash",
+    link: "https://www.facebook.com/tasinRiad Mahamud Piash",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
@@ -562,7 +562,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I like to write about the projects I've worked on, my current work and discuss my latest foundings. You are most welcome to input your thoughts on my projects.",
-    link: "https://RiadMahamudPiash.wordpress.com/projects/",
+    link: "https://Riad Mahamud Piash.wordpress.com/projects/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
