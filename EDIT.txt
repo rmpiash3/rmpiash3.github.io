@@ -1,0 +1,11 @@
+open anything in note pad:
+notepad src\index.js   # index.jr er jaigai ja dibo tay on hobe
+o
+Tobe age oi folder a jete hobe: cd $env:USERPROFILE\Desktop\portfolio
+
+
+Update: 
+git add .
+git commit -m "Remove redirect meta tag"
+git push
+npm run deploy
