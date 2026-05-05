@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "521cd9183dccd5740752084273ab3c49",
+    "revision": "0fee9c3f224446bb3266cc7b3fd4aef2",
     "url": "/index.html"
   },
   {
-    "revision": "79fb21fb7334471915b7",
-    "url": "/static/css/main.dfe8e16e.chunk.css"
+    "revision": "3075754dcdf1972b00a0",
+    "url": "/static/css/main.8f97349e.chunk.css"
   },
   {
     "revision": "c9c8da3b177854312e7c",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.b0d8c533.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "79fb21fb7334471915b7",
-    "url": "/static/js/main.4c12cac0.chunk.js"
+    "revision": "3075754dcdf1972b00a0",
+    "url": "/static/js/main.a879e9a0.chunk.js"
   },
   {
     "revision": "ffa35ce8a4c087fe7422",
@@ -68,16 +68,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/address_image.3b021f8f.svg"
   },
   {
-    "revision": "49e0ee73ad51ac8da19f33c3d5c71fc2",
-    "url": "/static/media/android-icon-144x144.49e0ee73.png"
+    "revision": "e8236256fcc41809ffbd6c836cb9cbc5",
+    "url": "/static/media/android-icon-144x144.e8236256.png"
   },
   {
-    "revision": "8fb6c26d3152020956b7b85edd388b81",
-    "url": "/static/media/android-icon-192x192.8fb6c26d.png"
+    "revision": "1817c334057be98091b34a87e0c78307",
+    "url": "/static/media/android-icon-192x192.1817c334.png"
   },
   {
-    "revision": "b85a9e570e36cea6a13155c43343d080",
-    "url": "/static/media/android-icon-96x96.b85a9e57.png"
+    "revision": "ce455d9fded7608530d92e448e8fdc55",
+    "url": "/static/media/android-icon-72x72.ce455d9f.png"
+  },
+  {
+    "revision": "f1a3053316f0e7abdfea5e2abed8f863",
+    "url": "/static/media/android-icon-96x96.f1a30533.png"
   },
   {
     "revision": "e5c4ba08c1a82ef1dc0c72885b61ca05",
@@ -92,36 +96,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/animated_logo.a633be2f.svg"
   },
   {
-    "revision": "516e5f02e09118172bd87fc4a9421f53",
-    "url": "/static/media/apple-icon-114x114.516e5f02.png"
+    "revision": "5bc3bd3ab3adeacf17de460e797b5ee6",
+    "url": "/static/media/apple-icon-114x114.5bc3bd3a.png"
   },
   {
-    "revision": "c8ee763b0158d3d0edd48f915451627d",
-    "url": "/static/media/apple-icon-120x120.c8ee763b.png"
+    "revision": "577f0f125003a74f1b999102aeb1570a",
+    "url": "/static/media/apple-icon-120x120.577f0f12.png"
   },
   {
-    "revision": "49e0ee73ad51ac8da19f33c3d5c71fc2",
-    "url": "/static/media/apple-icon-144x144.49e0ee73.png"
+    "revision": "e8236256fcc41809ffbd6c836cb9cbc5",
+    "url": "/static/media/apple-icon-144x144.e8236256.png"
   },
   {
-    "revision": "240a3f5c3ef6b3bcd3fdb5657d5b9e34",
-    "url": "/static/media/apple-icon-152x152.240a3f5c.png"
+    "revision": "12bc313061ef3dace79fc56c011bfcbb",
+    "url": "/static/media/apple-icon-152x152.12bc3130.png"
   },
   {
-    "revision": "537f3c9241e642152bf3991d943065be",
-    "url": "/static/media/apple-icon-180x180.537f3c92.png"
+    "revision": "a07ba9e2537fc0409a7726790ed8b5d1",
+    "url": "/static/media/apple-icon-180x180.a07ba9e2.png"
   },
   {
-    "revision": "29bfad611896e135ec14edc575ea9db0",
-    "url": "/static/media/apple-icon-76x76.29bfad61.png"
+    "revision": "ce455d9fded7608530d92e448e8fdc55",
+    "url": "/static/media/apple-icon-72x72.ce455d9f.png"
   },
   {
-    "revision": "68e6e95dd09c30f53cdb6836af333330",
-    "url": "/static/media/apple-icon-precomposed.68e6e95d.png"
+    "revision": "2f277981a46c92ce2b83052efdaf4a2b",
+    "url": "/static/media/apple-icon-76x76.2f277981.png"
   },
   {
-    "revision": "68e6e95dd09c30f53cdb6836af333330",
-    "url": "/static/media/apple-icon.68e6e95d.png"
+    "revision": "a07ba9e2537fc0409a7726790ed8b5d1",
+    "url": "/static/media/apple-icon-precomposed.a07ba9e2.png"
+  },
+  {
+    "revision": "a07ba9e2537fc0409a7726790ed8b5d1",
+    "url": "/static/media/apple-icon.a07ba9e2.png"
   },
   {
     "revision": "b6b12c7d07e0569e771c8aedf81a7767",
@@ -228,16 +236,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fa-solid-900.8e4a6dcc.eot"
   },
   {
-    "revision": "b85a9e570e36cea6a13155c43343d080",
-    "url": "/static/media/favicon-96x96.b85a9e57.png"
+    "revision": "f1a3053316f0e7abdfea5e2abed8f863",
+    "url": "/static/media/favicon-96x96.f1a30533.png"
   },
   {
-    "revision": "a27467df5d535fee029a704916ad57f4",
-    "url": "/static/media/favicon.a27467df.ico"
+    "revision": "65691e0ec488b375a4e71197b9241211",
+    "url": "/static/media/favicon.65691e0e.ico"
   },
   {
-    "revision": "2a24a8543299da438f46039d07384efa",
-    "url": "/static/media/favicon1.2a24a854.ico"
+    "revision": "65691e0ec488b375a4e71197b9241211",
+    "url": "/static/media/favicon1.65691e0e.ico"
   },
   {
     "revision": "a73310ea0ad8aebedb65b3106024427a",
@@ -284,8 +292,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/legato_logo.4ba886ba.png"
   },
   {
-    "revision": "260d57586012b0ed1ae78accc0bf7083",
-    "url": "/static/media/logo512.260d5758.png"
+    "revision": "1817c334057be98091b34a87e0c78307",
+    "url": "/static/media/logo192.1817c334.png"
+  },
+  {
+    "revision": "e38f3cf9106d34543049be3d2efbecef",
+    "url": "/static/media/logo512.e38f3cf9.png"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
@@ -300,16 +312,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/moon.dc75df84.svg"
   },
   {
-    "revision": "49e0ee73ad51ac8da19f33c3d5c71fc2",
-    "url": "/static/media/ms-icon-144x144.49e0ee73.png"
+    "revision": "e8236256fcc41809ffbd6c836cb9cbc5",
+    "url": "/static/media/ms-icon-144x144.e8236256.png"
   },
   {
-    "revision": "3fce30fff225db8d6a8a1247830d387f",
-    "url": "/static/media/ms-icon-150x150.3fce30ff.png"
+    "revision": "538e0a1e5bf46bb0e66c7eaea3df8b57",
+    "url": "/static/media/ms-icon-150x150.538e0a1e.png"
   },
   {
-    "revision": "6512b54b0ff4753ff98ce77b914dcd4e",
-    "url": "/static/media/ms-icon-310x310.6512b54b.png"
+    "revision": "6e19c86deff1664b792fd79cb8994cde",
+    "url": "/static/media/ms-icon-310x310.6e19c86d.png"
   },
   {
     "revision": "db6c1c0dddd4c868e00a3cffa1078e49",
