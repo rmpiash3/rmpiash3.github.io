@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e8cbbbc7.chunk.css",
-    "main.js": "/static/js/main.cd82c07c.chunk.js",
-    "main.js.map": "/static/js/main.cd82c07c.chunk.js.map",
+    "main.js": "/static/js/main.99ca6fbd.chunk.js",
+    "main.js.map": "/static/js/main.99ca6fbd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8025a556.js",
     "runtime-main.js.map": "/static/js/runtime-main.8025a556.js.map",
-    "static/js/2.1726d6dc.chunk.js": "/static/js/2.1726d6dc.chunk.js",
-    "static/js/2.1726d6dc.chunk.js.map": "/static/js/2.1726d6dc.chunk.js.map",
+    "static/js/2.f2a34adf.chunk.js": "/static/js/2.f2a34adf.chunk.js",
+    "static/js/2.f2a34adf.chunk.js.map": "/static/js/2.f2a34adf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.446bec34d80e5c4321cb36e1066a34d4.js": "/precache-manifest.446bec34d80e5c4321cb36e1066a34d4.js",
+    "precache-manifest.62452354430d18a1742e24660fef9a75.js": "/precache-manifest.62452354430d18a1742e24660fef9a75.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e8cbbbc7.chunk.css.map": "/static/css/main.e8cbbbc7.chunk.css.map",
-    "static/js/2.1726d6dc.chunk.js.LICENSE.txt": "/static/js/2.1726d6dc.chunk.js.LICENSE.txt",
+    "static/js/2.f2a34adf.chunk.js.LICENSE.txt": "/static/js/2.f2a34adf.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/DUET LOgo_1.png.jpg": "/static/media/DUET LOgo_1.png.e01eb11c.jpg",
     "static/media/RM_PIASH.png": "/static/media/RM_PIASH.99784332.png",
@@ -83,6 +83,9 @@
     "static/media/robotics_autonomous.svg": "/static/media/robotics_autonomous.35cc1d19.svg",
     "static/media/robotics_engineering.svg": "/static/media/robotics_engineering.653cd56f.svg",
     "static/media/skill.svg": "/static/media/skill.34409398.svg",
+    "static/media/skill_01.png": "/static/media/skill_01.e3404b5d.png",
+    "static/media/skill_02.png": "/static/media/skill_02.c866594c.png",
+    "static/media/skill_03.png": "/static/media/skill_03.2c544ff9.png",
     "static/media/stanford_logo.png": "/static/media/stanford_logo.da0e7c80.png",
     "static/media/sun.svg": "/static/media/sun.4db24c0e.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.de3da806.svg",
@@ -91,8 +94,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8025a556.js",
-    "static/js/2.1726d6dc.chunk.js",
+    "static/js/2.f2a34adf.chunk.js",
     "static/css/main.e8cbbbc7.chunk.css",
-    "static/js/main.cd82c07c.chunk.js"
+    "static/js/main.99ca6fbd.chunk.js"
   ]
 }
