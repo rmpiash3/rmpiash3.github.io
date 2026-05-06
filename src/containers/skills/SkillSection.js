@@ -42,7 +42,7 @@ class SkillSection extends Component {
                   <SoftwareSkill logos={skill.softwareSkills} />
                 </Fade>
                 <Fade right duration={2000}>
-                  <div>
+                  <div className="skills-copy-list">
                     {skill.skills.map((skillSentence) => {
                       return (
                         <p
