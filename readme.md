@@ -16,6 +16,8 @@
     |
     <a href="https://www.linkedin.com/in/rmpiash4">LinkedIn</a>
     |
+    <a href="https://www.facebook.com/rmpiash3/">Facebook</a>
+    |
     <a href="mailto:riadmahamudpiash@gmail.com">Email</a>
   </p>
 </div>
@@ -86,4 +88,5 @@ npm run deploy
 - Location: Gazipur, Bangladesh
 - Email: riadmahamudpiash@gmail.com
 - GitHub: [rmpiash3](https://github.com/rmpiash3)
+- Facebook: [rmpiash3](https://www.facebook.com/rmpiash3/)
 - Portfolio: [rmpiash3.github.io](https://rmpiash3.github.io/#/)

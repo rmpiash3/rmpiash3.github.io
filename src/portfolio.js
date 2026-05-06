@@ -30,6 +30,12 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5",
   },
   {
+    name: "Facebook",
+    link: "https://www.facebook.com/rmpiash3/",
+    fontAwesomeIcon: "fa-facebook-f",
+    backgroundColor: "#1877F2",
+  },
+  {
     name: "Gmail",
     link: "mailto:riadmahamudpiash@gmail.com",
     fontAwesomePrefix: "fas",
