@@ -20,6 +20,8 @@
 
 .greeting-main {
   display: flex;
+  align-items: flex-start;
+  gap: 36px;
 }
 
 .greeting-main > * {
@@ -35,7 +37,8 @@
 }
 
 .greeting-text {
-  margin-top: 80px;
+  margin-top: 0;
+  margin-bottom: 26px;
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
@@ -79,6 +82,7 @@
 @media (max-width: 1380px) {
   .greeting-text {
     font-size: 50px;
+    margin-top: 0;
   }
   .greeting-text-p {
     font-size: 20px;
