@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7928c3630aad51cb409e3c99fc7e32ee",
+    "revision": "b97d3aaa40c9291f48cf246183ea1298",
     "url": "/index.html"
   },
   {
-    "revision": "b8d5fb6246c69d5aeeb6",
-    "url": "/static/css/main.00c4179c.chunk.css"
+    "revision": "17a0dddcd59146318427",
+    "url": "/static/css/main.8a519e39.chunk.css"
   },
   {
-    "revision": "1928a67619128c31c83b",
-    "url": "/static/js/2.064dde0e.chunk.js"
+    "revision": "f3602fea72df09880309",
+    "url": "/static/js/2.1726d6dc.chunk.js"
   },
   {
     "revision": "1cd8323dc88584766ceceaede38c57bd",
-    "url": "/static/js/2.064dde0e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.1726d6dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8d5fb6246c69d5aeeb6",
-    "url": "/static/js/main.866f1a98.chunk.js"
+    "revision": "17a0dddcd59146318427",
+    "url": "/static/js/main.ab88df06.chunk.js"
   },
   {
     "revision": "ffa35ce8a4c087fe7422",
@@ -168,6 +168,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/developerActivity.59389695.svg"
   },
   {
+    "revision": "76cbad735bb72c8aeecf35ecef1763e0",
+    "url": "/static/media/digital_twin_modeling.76cbad73.svg"
+  },
+  {
     "revision": "f65ee6f64b46db0ae0f59279ea7853a8",
     "url": "/static/media/dsc_logo.f65ee6f6.png"
   },
@@ -312,6 +316,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/manOnTable.52be3144.svg"
   },
   {
+    "revision": "f8c1387d0b5772826224bcd960643e8a",
+    "url": "/static/media/mechanical_design_simulation.f8c1387d.svg"
+  },
+  {
     "revision": "fb870661a1a9fdac3ef16b12aac1f850",
     "url": "/static/media/michigan_logo.fb870661.png"
   },
@@ -352,6 +360,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/portfolio.6e7dc5ad.gif"
   },
   {
+    "revision": "364d3687cc16de690f1b6835aca33961",
+    "url": "/static/media/proficiency_analytics.364d3687.svg"
+  },
+  {
     "revision": "c1a95f7335cbfb730b937e19e8830a53",
     "url": "/static/media/programmer.c1a95f73.svg"
   },
@@ -360,8 +372,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/projects_image.f7964c6b.svg"
   },
   {
+    "revision": "a1439046a659b09987214f602d0cae62",
+    "url": "/static/media/projects_systems.a1439046.svg"
+  },
+  {
     "revision": "bd5f4148a754968cb4444206539c565c",
     "url": "/static/media/pwa.bd5f4148.png"
+  },
+  {
+    "revision": "35cc1d19652e7dcb887b4ecad4fa374c",
+    "url": "/static/media/robotics_autonomous.35cc1d19.svg"
   },
   {
     "revision": "653cd56f3bf64d07872428e6a74173b1",
