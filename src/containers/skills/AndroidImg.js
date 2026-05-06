@@ -6,7 +6,8 @@ export default class CloudInfraImg extends Component {
       <img
         className="skill-illustration"
         alt="Robotics and autonomous systems"
-        src={require("../../assests/images/skill_02.png")}
+        loading="lazy"
+        src={require("../../assests/images/skill_02.webp")}
       />
     );
   }

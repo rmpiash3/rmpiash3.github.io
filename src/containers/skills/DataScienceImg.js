@@ -6,7 +6,8 @@ export default class DataScienceImg extends Component {
       <img
         className="skill-illustration"
         alt="Physics-based modeling and system insight"
-        src={require("../../assests/images/skill_01.png")}
+        loading="lazy"
+        src={require("../../assests/images/skill_01.webp")}
       />
     );
   }

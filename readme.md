@@ -1,7 +1,7 @@
 # RIAD MAHAMUD PIASH Portfolio
 
 <div align="center">
-  <img src="public/RM_PIASH.png" width="145" alt="RIAD MAHAMUD PIASH" />
+  <img src="public/RM_PIASH.jpg" width="145" alt="RIAD MAHAMUD PIASH" />
 
   <h2>RIAD MAHAMUD PIASH</h2>
   <p><strong>Mechanical Engineer</strong></p>

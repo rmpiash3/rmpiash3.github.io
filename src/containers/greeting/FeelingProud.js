@@ -5,7 +5,7 @@ class FeelingProud extends Component {
     return (
       <img
         className="home-hero-image"
-        src={require("../../assests/images/home_04.png")}
+        src={require("../../assests/images/home_04.webp")}
         alt="Robotics and intelligent engineering systems"
       />
     );

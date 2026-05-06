@@ -25,7 +25,7 @@ class Header extends Component {
             <NavLink to={link} tag={Link} className="logo">
               <img
                 className="logo-avatar"
-                src={require("../../assests/images/RM_PIASH.png")}
+                src={require("../../assests/images/RM_PIASH.webp")}
                 alt="RIAD MAHAMUD PIASH"
               />
               <span className="logo-name" style={{ color: theme.text }}>

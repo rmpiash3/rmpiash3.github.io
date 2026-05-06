@@ -501,7 +501,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "RM_PIASH.png",
+    profile_image_path: "RM_PIASH.webp",
     description:
       "I am open to research collaboration, robotics and digital twin projects, teaching or mentoring opportunities, and engineering roles related to intelligent systems, simulation, and mechanical design.",
   },
