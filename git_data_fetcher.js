@@ -1,8 +1,8 @@
-require('dotenv').config();
+﻿require('dotenv').config();
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "Tasin5541",
+  githubUserName: "rmpiash3",
 };
 
 const fetch = require("node-fetch");
@@ -301,3 +301,4 @@ fetch(baseUrl, {
   .catch((error) =>
     console.log("Error occured in pinned projects 2", JSON.stringify(error))
   );
+

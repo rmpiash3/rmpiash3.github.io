@@ -3,12 +3,18 @@
 }
 
 .basic-education {
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 92%;
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .heading-div {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  min-height: 520px;
 }
 
 .heading-div > * {
@@ -16,16 +22,21 @@
 }
 
 .heading-img-div {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .heading-text-div {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .heading-img-div > * {
-  max-width: 100%;
+  max-width: min(100%, 520px);
   height: auto;
 }
 
@@ -35,7 +46,7 @@
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 0;
 }
 
 .heading-sub-text {
@@ -66,5 +77,11 @@
 
   .heading-div {
     flex-direction: column;
+    gap: 24px;
+    min-height: auto;
+  }
+
+  .heading-img-div > * {
+    max-width: 86%;
   }
 }

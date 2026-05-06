@@ -25,6 +25,13 @@
   user-select: none;
   width: 2.6rem;
   margin-bottom: 10px;
+  box-shadow: 0 10px 22px rgba(31, 41, 51, 0.16);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.icon-button i:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 26px rgba(37, 99, 235, 0.22);
 }
 
 /* .facebook i {

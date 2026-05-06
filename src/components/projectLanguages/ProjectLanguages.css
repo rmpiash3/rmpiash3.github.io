@@ -14,6 +14,24 @@
   font-family: "Google Sans Regular";
 }
 
+.tooltip .tooltip-inner,
+#tooltip-top > .tooltip-inner {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  color: #64748b !important;
+  font-family: "Google Sans Regular";
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0;
+}
+
+.tooltip .tooltip-arrow,
+.tooltip .arrow,
+#tooltip-top > .tooltip-arrow {
+  display: none !important;
+}
+
 @media (max-width: 768px) {
   .software-skills-main-div {
     margin-left: -20px;

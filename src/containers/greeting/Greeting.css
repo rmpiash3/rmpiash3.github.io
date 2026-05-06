@@ -9,6 +9,7 @@
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
+  border-radius: 8px;
 }
 
 .gretting-main {
@@ -38,6 +39,10 @@
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
+  background: linear-gradient(135deg, #1f2933, #dc2626 44%, #0f766e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
 }
 
 .greeting-nickname {
@@ -47,15 +52,27 @@
 }
 
 .greeting-text-p {
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 38px;
+  line-height: 1.15;
   margin-right: 40px;
   font-family: "Google Sans Medium";
+  max-width: 780px;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
 }
 
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
+  filter: drop-shadow(0 24px 34px rgba(220, 38, 38, 0.16));
+}
+
+.home-hero-image {
+  display: block;
+  width: min(720px, 100%);
+  margin: 0 auto;
+  object-fit: contain;
 }
 
 /* Media Query */
@@ -85,6 +102,7 @@
     margin-right: 0px;
     line-height: normal;
     text-align: center;
+    text-align-last: center;
   }
   .greeting-main {
     display: block;

@@ -1,13 +1,18 @@
 .certs-header {
   font-size: 40px;
   line-height: 1.1;
-  font-family: "Google Sans Regular";
+  font-family: "Google Sans Bold";
   text-align: center;
+  background: linear-gradient(135deg, #dc2626, #f97316 45%, #2563eb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
 }
 
 .certs-body-div {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 26px;
   flex-wrap: wrap;
 }
 

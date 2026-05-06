@@ -1,1 +1,130 @@
-{"data":[{"id":"MDEwOlJlcG9zaXRvcnkyOTU0MzQ5NjU=","name":"Face_Recognizer","createdAt":"2020-09-14T14:05:35Z","url":"https://github.com/Tasin5541/Face_Recognizer","description":"Face Recognition with ResNet-50 and custom trainable head","forkCount":2,"stargazers":{"totalCount":3},"languages":[{"name":"Jupyter Notebook","iconifyClass":"logos-jupyter"}]},{"id":"MDEwOlJlcG9zaXRvcnkyNDUxODc2NTk=","name":"Bachao-Android_Studio","createdAt":"2020-03-05T14:40:54Z","url":"https://github.com/Tasin5541/Bachao-Android_Studio","description":"An Android app made with Android Studio to report crime and stay updated with local most wanted criminals","forkCount":0,"stargazers":{"totalCount":3},"languages":[{"name":"Java","iconifyClass":"logos-java"}]},{"id":"MDEwOlJlcG9zaXRvcnkyNDUyMjc0MDY=","name":"Cricket-Image-Classifier","createdAt":"2020-03-05T17:33:15Z","url":"https://github.com/Tasin5541/Cricket-Image-Classifier","description":"A trained Neural Network model to identify what a player or umpire is doing in an image","forkCount":0,"stargazers":{"totalCount":3},"languages":[{"name":"Jupyter Notebook","iconifyClass":"logos-jupyter"}]},{"id":"MDEwOlJlcG9zaXRvcnkxODE0MTU2MDU=","name":"PAATHSHALA_PHP","createdAt":"2019-04-15T05:06:32Z","url":"https://github.com/Tasin5541/PAATHSHALA_PHP","description":"A website made for bangladeshi students where they can ask questions related to study and get ranked as they give solutions to others' problem","forkCount":1,"stargazers":{"totalCount":3},"languages":[{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"}]},{"id":"MDEwOlJlcG9zaXRvcnkyODYxNjEwNDE=","name":"Deep_Fake_Video_Using_First_Order_motion_model","createdAt":"2020-08-09T03:39:31Z","url":"https://github.com/Tasin5541/Deep_Fake_Video_Using_First_Order_motion_model","description":"Generate fake videos of a person from his image. Animates the image for lip sync","forkCount":0,"stargazers":{"totalCount":3},"languages":[{"name":"Jupyter Notebook","iconifyClass":"logos-jupyter"}]},{"id":"MDEwOlJlcG9zaXRvcnkyNDUxODU4NTc=","name":"Patient_Care_JAVA-Netbeans-","createdAt":"2020-03-05T14:33:45Z","url":"https://github.com/Tasin5541/Patient_Care_JAVA-Netbeans-","description":"A java software for hospital management and keeping track of own medical history","forkCount":1,"stargazers":{"totalCount":2},"languages":[{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"Java","iconifyClass":"logos-java"}]}]}
+{
+  "data": [
+    {
+      "id": "riad-project-cozmo-clance",
+      "name": "Cozmo Clance",
+      "createdAt": "2024-10-25T00:00:00Z",
+      "url": "https://rmpiash3.github.io/#/projects",
+      "description": "Techfest IIT Bombay Bangladesh Zonal project, awarded 1st Runners-up position.",
+      "forkCount": 0,
+      "stargazers": {
+        "totalCount": 1
+      },
+      "languages": [
+        {
+          "name": "Robotics",
+          "iconifyClass": "mdi:robot-industrial"
+        },
+        {
+          "name": "Mechanical Design",
+          "iconifyClass": "mdi:cube-scan"
+        }
+      ]
+    },
+    {
+      "id": "riad-project-meshmerise-robot",
+      "name": "Meshmerise Robot",
+      "createdAt": "2024-10-25T00:00:00Z",
+      "url": "https://rmpiash3.github.io/#/projects",
+      "description": "Techfest IIT Bombay Bangladesh Zonal robotics project, achieved 4th place.",
+      "forkCount": 0,
+      "stargazers": {
+        "totalCount": 1
+      },
+      "languages": [
+        {
+          "name": "Robotics",
+          "iconifyClass": "mdi:robot"
+        },
+        {
+          "name": "Autonomous Systems",
+          "iconifyClass": "mdi:map-marker-path"
+        }
+      ]
+    },
+    {
+      "id": "riad-project-trash-collector",
+      "name": "Autonomous Trash Collector Robot",
+      "createdAt": "2025-02-12T00:00:00Z",
+      "url": "https://rmpiash3.github.io/#/projects",
+      "description": "Autonomous waste collection, classification, disposal, obstacle avoidance, and return-to-base system.",
+      "forkCount": 0,
+      "stargazers": {
+        "totalCount": 2
+      },
+      "languages": [
+        {
+          "name": "Autonomous Robotics",
+          "iconifyClass": "mdi:robot-industrial"
+        },
+        {
+          "name": "AI",
+          "iconifyClass": "mdi:brain"
+        }
+      ]
+    },
+    {
+      "id": "riad-project-agro-robot",
+      "name": "Agro-Robot",
+      "createdAt": "2025-04-12T00:00:00Z",
+      "url": "https://rmpiash3.github.io/#/projects",
+      "description": "Autonomous disease detection and self-remedy system for agricultural field support.",
+      "forkCount": 0,
+      "stargazers": {
+        "totalCount": 2
+      },
+      "languages": [
+        {
+          "name": "YOLO",
+          "iconifyClass": "mdi:crosshairs-gps"
+        },
+        {
+          "name": "Computer Vision",
+          "iconifyClass": "mdi:image-search"
+        }
+      ]
+    },
+    {
+      "id": "riad-project-vbn",
+      "name": "Voice Braille Navigator (VBN)",
+      "createdAt": "2026-01-02T00:00:00Z",
+      "url": "https://rmpiash3.github.io/#/projects",
+      "description": "Assistive navigation concept with obstacle detection, location guidance, voice browsing, audio reading, and Braille keyboard control.",
+      "forkCount": 0,
+      "stargazers": {
+        "totalCount": 2
+      },
+      "languages": [
+        {
+          "name": "Assistive Technology",
+          "iconifyClass": "mdi:accessibility"
+        },
+        {
+          "name": "Voice Interface",
+          "iconifyClass": "mdi:microphone"
+        }
+      ]
+    },
+    {
+      "id": "riad-project-digital-twin-battery",
+      "name": "Battery Thermal Digital Twin",
+      "createdAt": "2026-01-15T00:00:00Z",
+      "url": "https://rmpiash3.github.io/#/projects",
+      "description": "Physics-based digital twin framework for real-time lithium-ion battery thermal state estimation using Extended Kalman Filter.",
+      "forkCount": 0,
+      "stargazers": {
+        "totalCount": 3
+      },
+      "languages": [
+        {
+          "name": "MATLAB",
+          "iconifyClass": "vscode-icons:file-type-matlab"
+        },
+        {
+          "name": "Digital Twin",
+          "iconifyClass": "mdi:chart-timeline-variant"
+        }
+      ]
+    }
+  ]
+}

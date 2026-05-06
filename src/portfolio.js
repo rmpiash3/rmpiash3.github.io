@@ -1,186 +1,140 @@
-/* Change this file to get your personal Porfolio */
+/* Personal portfolio data for RIAD MAHAMUD PIASH */
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false,
 };
 
-//Home Page
+// Home Page
 const greeting = {
-  title: "Riad Mahamud Piash",
-  logo_name: "Riad Mahamud Piash",
-  nickname: null,
+  title: "RIAD MAHAMUD PIASH",
+  logo_name: "RM PIASH",
+  nickname: "Mechanical Engineer",
   subTitle:
-    "An aspiring Engineer who loves to take on new projects that challenges his analytical and technological capacities.",
-  resumeLink:
-    "https://drive.google.com/file/d/1ecfeM8pNH7aLELi5EINHrX8-jY5Uqb0q/view?usp=sharing",
-  portfolio_repository: "https://github.com/Tasin5541",
+    "Mechanical Engineer focused on Digital Twin systems, intelligent robotics, physics-based modeling, battery thermal estimation, and AI-enabled autonomous systems.",
+  resumeLink: "https://rmpiash3.github.io/CV_of_RIAD_MAHAMUD_PIASH.pdf",
+  portfolio_repository: "https://github.com/rmpiash3",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://rmpiash3.github.io",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    link: "https://github.com/rmpiash3",
+    fontAwesomeIcon: "fa-github",
+    backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/rmpiash4",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  },
-  {
-    name: "YouTube",
-    link:
-      "https://www.youtube.com/channel/UClvrUclYSGX_MZPOF6ySG6A?view_as=subscriber",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+    fontAwesomeIcon: "fa-linkedin-in",
+    backgroundColor: "#0077B5",
   },
   {
     name: "Gmail",
-    link:
-      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tasinRiad Mahamud Piash@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/rmpiash3/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/mm_tasin/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    link: "mailto:riadmahamudpiash@gmail.com",
+    fontAwesomePrefix: "fas",
+    fontAwesomeIcon: "fa-envelope",
+    backgroundColor: "#D14836",
   },
 ];
 
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
+      title: "Digital Twin & Physics-Based Modeling",
+      fileName: "DataScienceImg",
       skills: [
-        "⚡ Building resposive website using NextJs and React",
-        "⚡ Implementing secure access to database",
-        "⚡ Creating application backend in .Net Core",
-        "⚡ Implementing dynamic script execution defined by user",
+        "- Building physics-based system models for real-time engineering insight.",
+        "- Working with Extended Kalman Filter based state estimation for battery thermal systems.",
+        "- Connecting MATLAB modeling, simulation, and AI workflows for intelligent monitoring.",
       ],
       softwareSkills: [
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
+          skillName: "MATLAB",
+          fontAwesomeClassname: "vscode-icons:file-type-matlab",
+          style: { color: "#e16737" },
         },
         {
-          skillName: "NextJs",
-          fontAwesomeClassname: "akar-icons:nextjs-fill",
-          style: {
-            color: "#626262",
-          },
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: { color: "#3776AB" },
         },
         {
-          skillName: ".Net Core",
-          fontAwesomeClassname: "mdi:dot-net",
-          style: {
-            color: "#5C2D91",
-          },
+          skillName: "PyTorch",
+          fontAwesomeClassname: "simple-icons:pytorch",
+          style: { color: "#EE4C2C" },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
+          skillName: "YOLO",
+          fontAwesomeClassname: "mdi:crosshairs-gps",
+          style: { color: "#16A34A" },
+        },
+      ],
+    },
+    {
+      title: "Robotics & Autonomous Systems",
+      fileName: "AndroidImg",
+      skills: [
+        "- Developing concepts for autonomous waste collection, obstacle avoidance, and return-to-base operation.",
+        "- Designing agri-robot systems for disease detection and self-remedy workflows.",
+        "- Combining sensing, mechanical design, and AI logic for practical assistive robots.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Autonomous Systems",
+          fontAwesomeClassname: "mdi:robot-industrial",
+          style: { color: "#0F766E" },
         },
         {
-          skillName: "Redux",
-          fontAwesomeClassname: "tabler:brand-redux",
-          style: {
-            color: "#7749bd",
-          },
+          skillName: "Machine Learning",
+          fontAwesomeClassname: "mdi:brain",
+          style: { color: "#7C3AED" },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            color: "#F7DF1E",
-          },
+          skillName: "Image Processing",
+          fontAwesomeClassname: "mdi:image-search",
+          style: { color: "#2563EB" },
         },
         {
-          skillName: "TypeScript",
-          fontAwesomeClassname: "devicon:typescript",
-          style: {
-            color: "#3178c6",
-          },
+          skillName: "Control Systems",
+          fontAwesomeClassname: "mdi:tune-variant",
+          style: { color: "#D97706" },
+        },
+      ],
+    },
+    {
+      title: "Mechanical Design & Simulation",
+      fileName: "DesignImg",
+      skills: [
+        "- Modeling mechanical systems with CATIA V5, SolidWorks, and AutoCAD.",
+        "- Using ANSYS CFD and engineering simulation to understand fluid and thermal behavior.",
+        "- Preparing research-grade reports and technical documentation with LaTeX and MS Office.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "ANSYS",
+          fontAwesomeClassname: "simple-icons:ansys",
+          style: { color: "#FFB71B" },
         },
         {
-          skillName: "C#",
-          fontAwesomeClassname: "teenyicons:c-sharp-solid",
-          style: {
-            color: "#953dac",
-          },
+          skillName: "CATIA V5",
+          fontAwesomeClassname: "mdi:cube-scan",
+          style: { color: "#1D4ED8" },
         },
         {
-          skillName: "MS SQL Server",
-          fontAwesomeClassname: "tabler:sql",
-          style: {
-            color: "#c42626",
-          },
+          skillName: "SolidWorks",
+          fontAwesomeClassname: "mdi:cube-outline",
+          style: { color: "#B91C1C" },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "vscode-icons:file-type-mongo",
-          style: {
-            color: "#c42626",
-          },
+          skillName: "AutoCAD",
+          fontAwesomeClassname: "simple-icons:autodesk",
+          style: { color: "#0696D7" },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "logos:firebase",
-          style: {
-            color: "#c42626",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "skill-icons:docker",
-          style: {
-            color: "#c42626",
-          },
-        },
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "Tailwind CSS",
-          fontAwesomeClassname: "file-icons:tailwind",
-          style: {
-            color: "#38bdf8",
-          },
+          skillName: "LaTeX",
+          fontAwesomeClassname: "simple-icons:latex",
+          style: { color: "#008080" },
         },
       ],
     },
@@ -188,145 +142,119 @@ const skills = {
 };
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%", //Insert relative proficiency in percentage
+      Stack: "Digital Twin & State Estimation",
+      progressPercentage: "86%",
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%",
+      Stack: "Mechanical Modeling & Simulation",
+      progressPercentage: "88%",
     },
     {
-      Stack: "Programming",
-      progressPercentage: "80%",
+      Stack: "Robotics & Autonomous Systems",
+      progressPercentage: "82%",
     },
-  ],
-};
-
-//Language Skill
-const sLanguage = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
     {
-      Stack: "React",
+      Stack: "Research & Technical Writing",
       progressPercentage: "90%",
     },
+  ],
+};
+
+// Language Skill
+const sLanguage = {
+  viewSkillBars: true,
+  experience: [
     {
-      Stack: "NextJs",
-      progressPercentage: "70%",
+      Stack: "MATLAB",
+      progressPercentage: "88%",
     },
     {
-      Stack: "JavaScript",
-      progressPercentage: "80%",
+      Stack: "Python",
+      progressPercentage: "82%",
     },
     {
-      Stack: "TypeScript",
-      progressPercentage: "70%",
+      Stack: "PyTorch",
+      progressPercentage: "72%",
     },
     {
-      Stack: "Redux",
-      progressPercentage: "70%",
+      Stack: "YOLO",
+      progressPercentage: "75%",
     },
     {
-      Stack: ".Net Core",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "C#",
-      progressPercentage: "80%",
-    },
-    {
-      Stack: "SQL", //Insert stack or technology you have experience in
-      progressPercentage: "80%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "CSS/SASS",
-      progressPercentage: "80%",
-    },
-    {
-      Stack: "NodeJs",
-      progressPercentage: "40%",
+      Stack: "LaTeX",
+      progressPercentage: "78%",
     },
   ],
 };
 
-//Tools Skill
+// Tools Skill
 const tools = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Git",
+      Stack: "CATIA V5",
+      progressPercentage: "84%",
+    },
+    {
+      Stack: "SolidWorks",
+      progressPercentage: "82%",
+    },
+    {
+      Stack: "AutoCAD",
       progressPercentage: "80%",
     },
     {
-      Stack: "Azure Services", //Insert stack or technology you have experience in
-      progressPercentage: "70%", //Insert relative proficiency in percentage
+      Stack: "ANSYS CFD",
+      progressPercentage: "78%",
     },
     {
-      Stack: "Docker", //Insert stack or technology you have experience in
-      progressPercentage: "60%", //Insert relative proficiency in percentage
+      Stack: "MATLAB / Simulink",
+      progressPercentage: "86%",
     },
     {
-      Stack: "Visual Studio Code", //Insert stack or technology you have experience in
-      progressPercentage: "95%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Visual Studio ", //Insert stack or technology you have experience in
-      progressPercentage: "80%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "MS SQL Server", //Insert stack or technology you have experience in
-      progressPercentage: "90%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "MySQL", //Insert stack or technology you have experience in
-      progressPercentage: "70%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Firebase", //Insert stack or technology you have experience in
-      progressPercentage: "60%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "MongoDB", //Insert stack or technology you have experience in
-      progressPercentage: "60%", //Insert relative proficiency in percentage
+      Stack: "MS Office",
+      progressPercentage: "88%",
     },
   ],
 };
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/tasin95",
-    },
-  ],
+  competitiveSites: [],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "Ahsanullah University of Science and Technology",
-      subtitle: "B.Sc. in Computer Science and Engineering",
-      logo_path: "aust_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "March 2016 - January 2021",
-      cgpa: "3.855 / 4.00",
+      title: "Dhaka University of Engineering and Technology (DUET)",
+      subtitle: "Bachelor of Science (B.Sc.) in Mechanical Engineering",
+      logo_path: "duet_logo.png",
+      alt_name: "DUET",
+      duration: "Oct 2021 - Oct 2025",
+      cgpa: "3.34 / 4.00",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, OOP, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning and Full Stack Development.",
-        "⚡ Placed 4th in my class.",
-        "⚡ Dean's List.",
-        "⚡ I was selected for ITEE Training Program which comprised of 20 students in the CSE department.",
-        "⚡ Elected as the team leader in all the group projects.",
+        "- Focused on mechanical engineering fundamentals, thermal systems, fluid mechanics, design, and intelligent systems.",
+        "- Built research interest around digital twin systems, battery thermal modeling, computational materials, and AI for autonomous systems.",
+        "- Active in robotics, engineering society, language club, and student welfare association leadership.",
       ],
-      website_link: "http://aust.edu/",
+      website_link: "https://duet.ac.bd/",
+    },
+    {
+      title: "BCMC College of Engineering & Technology",
+      subtitle: "Diploma in Marine Technology",
+      logo_path: "bcmc_logo.png",
+      alt_name: "BCMC College of Engineering & Technology",
+      duration: "July 2016 - Feb 2021",
+      cgpa: "3.86 / 4.00",
+      descriptions: [
+        "- Achieved Merit Position 2 out of 70 students.",
+        "- Built a strong foundation in marine technology, engine systems, maintenance, and engineering drawing.",
+        "- Completed practical training in IC engine overhauling and marine engine overhauling.",
+      ],
+      website_link: "https://www.bcmc.edu.bd/",
     },
   ],
 };
@@ -334,158 +262,85 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "TENCON 2021",
-      subtitle: "- Nirmal Nair",
-      logo_path: "tencon.png",
+      title: "Deep Learning for Images with PyTorch",
+      subtitle: "- DataCamp, Nov 2024",
+      logo_path: "data_science.svg",
       certificate_link:
-        "https://drive.google.com/file/d/1wLzB3oGkyI4svn09Yor2sAeSF3DbPzeU/view?usp=sharing",
-      alt_name: "New Zealand",
-      color_code: "white",
+        "https://rmpiash3.github.io/certificates/deep-learning-for-images-with-pytorch.pdf",
+      alt_name: "DataCamp",
+      color_code: "#FEE2E2",
     },
     {
-      title: "Python Data Structures",
-      subtitle: "- Charles Russell Severance",
-      logo_path: "michigan_logo.png",
+      title: "Image Processing in Python",
+      subtitle: "- DataCamp, Nov 2024",
+      logo_path: "programmer.svg",
       certificate_link:
-        "https://coursera.org/share/259bcebba35c1ba43934608a5fab9907",
-      alt_name: "Michigan University",
-      color_code: "#2A73CC",
+        "https://rmpiash3.github.io/certificates/image-processing-in-python.pdf",
+      alt_name: "DataCamp",
+      color_code: "#E0F2FE",
     },
     {
-      title: "Python Basics",
-      subtitle: "- Charles Russell Severance",
-      logo_path: "michigan_logo.png",
+      title: "Understanding Machine Learning",
+      subtitle: "- DataCamp, Nov 2024",
+      logo_path: "skill.svg",
       certificate_link:
-        "https://coursera.org/share/39d3749b06308a77e0f596129029d4fe",
-      alt_name: "Michigan University",
-      color_code: "#2A73CC",
-    },
-
-    {
-      title: "React: The Big Picture",
-      subtitle: "- Cory House",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1qcJipEjDB3YanZor4xHpU_9BC73FuCud/view?usp=sharing",
-      alt_name: "Pluralsight",
-      color_code: "#000000",
+        "https://rmpiash3.github.io/certificates/understanding-machine-learning.pdf",
+      alt_name: "DataCamp",
+      color_code: "#FCE7F3",
     },
     {
-      title: "React: Getting Started",
-      subtitle: "- Samer Buna",
-      logo_path: "pluralsight_logo.png",
+      title: "Python Data Analysis Course for Beginners",
+      subtitle: "- Udemy, Dec 2024",
+      logo_path: "developerActivity.svg",
       certificate_link:
-        "https://drive.google.com/file/d/1LYzFiq0DDYYiDHowG4nbPjgmjCgd3QiV/view?usp=sharing",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
+        "https://rmpiash3.github.io/certificates/python-data-analysis-course-for-beginners.pdf",
+      alt_name: "Udemy",
+      color_code: "#FFEDD5",
     },
     {
-      title: "Javascript: Getting Started",
-      subtitle: "- Mark Zamoyta",
-      logo_path: "pluralsight_logo.png",
+      title: "Intermediate Python",
+      subtitle: "- DataCamp, Nov 2024",
+      logo_path: "programmer.svg",
       certificate_link:
-        "https://drive.google.com/file/d/12qhxMM2DGp4YVdG9wcpFDNX7r1bjqumx/view?usp=sharing",
-      alt_name: "Pluralsight",
-      color_code: "#000000",
+        "https://rmpiash3.github.io/certificates/intermediate-python.pdf",
+      alt_name: "DataCamp",
+      color_code: "#DCFCE7",
     },
     {
-      title: "Designing React Components",
-      subtitle: "- Peter Kellner",
-      logo_path: "pluralsight_logo.png",
+      title: "Introduction to Python",
+      subtitle: "- DataCamp, Nov 2024",
+      logo_path: "programmer.svg",
       certificate_link:
-        "https://drive.google.com/file/d/12f_pCjrOIkx0SMC0mqjnxpMwc9tesQoC/view?usp=sharing",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
+        "https://rmpiash3.github.io/certificates/introduction-to-python.pdf",
+      alt_name: "DataCamp",
+      color_code: "#DBEAFE",
     },
     {
-      title: "Managing React State",
-      subtitle: "- Cory House",
-      logo_path: "pluralsight_logo.png",
+      title: "Introduction to Excel",
+      subtitle: "- DataCamp, Nov 2024",
+      logo_path: "blogs_image.svg",
       certificate_link:
-        "https://drive.google.com/file/d/12f_pCjrOIkx0SMC0mqjnxpMwc9tesQoC/view?usp=sharing",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
+        "https://rmpiash3.github.io/certificates/introduction-to-excel.pdf",
+      alt_name: "DataCamp",
+      color_code: "#F0FDFA",
     },
     {
-      title: "Building Applications with React and Redux",
-      subtitle: "- Cory House",
-      logo_path: "pluralsight_logo.png",
+      title: "English for Everyday",
+      subtitle: "- 10 Minute School, Nov 2024",
+      logo_path: "manOnTable.svg",
       certificate_link:
-        "https://drive.google.com/file/d/15UMAKzJq1g1cIrz-sp1Ve0efg-M-hAq1/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
+        "https://rmpiash3.github.io/certificates/english-for-everyday.pdf",
+      alt_name: "10 Minute School",
+      color_code: "#FFE4E6",
     },
     {
-      title: "Using React Hooks",
-      subtitle: "- Peter Kellner",
-      logo_path: "pluralsight_logo.png",
+      title: "Presentation & Public Speaking",
+      subtitle: "- 10 Minute School, Nov 2024",
+      logo_path: "talksCardBack.svg",
       certificate_link:
-        "https://drive.google.com/file/d/15mPlLGrjpmkdlf3eyi7B_NLG8Wro5EEg/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Styling React Component",
-      subtitle: "- Jake Trent",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/14Wvag5M1sGzOlgWCC2PPDX4SsUkiqf72/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Testing React Components",
-      subtitle: "- Liam McLennan",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1654lPVh6R1zwSjgZjHV9gz7mgQ7wRmLm/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Server Rendering React Components",
-      subtitle: "- Daniel Stern",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/14YrLAmZlGNx2PayR0unlLjMoySL-eRG5/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Optimize Performance React",
-      subtitle: "- Hendrik Swanepoel",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/15kaZAf9642Kp_LBXYeqiVSzInaz-peAi/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Node.js The Big Picture",
-      subtitle: "- Paul O'Fallon",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/16jqLAZ4rWiUmITkGGxrZb68Eo5l77UPu/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Node.js Getting Started",
-      subtitle: "- Samer Buna",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/173qXhPtqI1zwSzcb487R3Ud_0j13LiDP/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Using MongoDB with Node.js",
-      subtitle: "- Samer Buna",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/16za14GrABr8xBM8r8hCtag1fO2faZTD8/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
+        "https://rmpiash3.github.io/certificates/presentation-and-public-speaking.pdf",
+      alt_name: "10 Minute School",
+      color_code: "#FEF3C7",
     },
   ],
 };
@@ -493,49 +348,135 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work and Volunteership",
+  subtitle: "Teaching, Mentoring, Training and Leadership",
   description:
-    "Fullstack Developer with 2+ years of experience working with React, .Net and NodeJs in an agile environment. Experience in leading a 5 member frontend team to achieve concrete goals on a strict deadline in a large scale project consisting over millions of records of drivers all throughout North America.",
+    "Mechanical engineer with active research, teaching, mentoring, robotics leadership, and hands-on training experience across tidal energy systems, CAD, programming, thermodynamics, fluid mechanics, vehicle maintenance, PLC, and engine systems.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Current Work",
       experiences: [
         {
-          title: "Fullstack Developer",
-          company: "CodeExcel inc.",
-          company_url: "https://codeexcel.ca/",
-          logo_path: "codeexcel.jpg",
-          duration: "January 2021 - PRESENT",
-          location: "Markham, ON, Canada (Remote)",
+          title:
+            "Research Assistant - Sustainable Electricity Generation from Tidal Lagoons",
+          company: "Dhaka University of Engineering & Technology",
+          company_url: "https://duet.ac.bd/",
+          logo_path: "duet_logo.png",
+          duration: "May 2026 - Present",
+          location: "Gazipur, Dhaka, Bangladesh (On-site)",
           description:
-            "Worked with 2 Insurance Bureau of Canada and Pixelmask Inc. as a Contractor via CodeExcel. Engaged in 5 successful projects utilizing stacks such as: React, .Net Core, MS SQL Server, Azure Cloud Services (AD, B2C, Key Vault, Blob Storage, Front Door etc). The projects are mainly focused towards the North American Insurance Industry.",
+            "Working as a Research Assistant on the project Sustainable Electricity Generation from Tidal Lagoons at Dhaka University of Engineering & Technology, Gazipur. The project focuses on low-head tidal energy harvesting, water storage through tidal lagoon systems, and power generation using an Archimedes Screw Turbine.",
           features: [
-            "- Led the frontend team that resulted in a 25% increase in sprint completion rate.",
-            "- Implemented Single Sign-On (SSO) via Azure B2C across multiple legacy projects, simplifying user experience and reducing account management, resulting in seamless login with company credentials.",
-            "- Uncovered critical project vulnerabilities within 2 days of joining the IBC team, enabling timely remediation and preventing potential losses.",
-            "- Slashed development cost by 13% by suggesting and building a SCIM v2 compliant API for automatic user provisioning between IDP and application instead of using third party solution.",
-            "- Implemented flexible payment gateway module, empowering clients to easily switch gateways, boosting convenience and expanding options.",
-            "- Optimized UI performance by 15% and eliminated code redundancy using React's functional components, custom hooks, and Redux.",
+            "- Developing project concepts and hydraulic design analysis.",
+            "- Planning turbine geometry and CAD modeling workflows.",
+            "- Preparing performance estimation and technical documentation.",
           ],
-          color: "#0879bf",
+          color: "#0F766E",
         },
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Teaching & Mentoring",
       experiences: [
         {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "September 2020 - PRESENT",
-          location: "Work From Home",
+          title: "Lecturer (Part-Time), Department of Marine Technology",
+          company: "BCMC College of Engineering & Technology",
+          company_url: "https://www.bcmc.edu.bd/",
+          logo_path: "bcmc_logo.png",
+          duration: "Mar 2020 - July 2021",
+          location: "Bangladesh",
           description:
-            "I am actively contributing to many opensource projects. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          features: [],
-          color: "#181717",
+            "Taught Mechanical Engineering Drawing, Computer-Aided Design (CAD), and Computer Programming Language Sessional with Python and MATLAB.",
+          features: [
+            "- Mentored students in engineering drawing and CAD workflows.",
+            "- Supported hands-on programming sessions using Python and MATLAB.",
+          ],
+          color: "#5E6A75",
+        },
+        {
+          title: "Lecturer, Department of Mechanical Engineering",
+          company: "NEXUS",
+          company_url: "https://www.linkedin.com/",
+          logo_path: "programmer.svg",
+          duration: "Dec 2021 - Dec 2022",
+          location: "Bangladesh",
+          description:
+            "Delivered courses and mentoring support on Mechanics, Thermodynamics, Fluid Mechanics, and Drawing.",
+          features: [
+            "- Helped students build conceptual clarity across core mechanical engineering subjects.",
+            "- Prepared course guidance for problem solving and technical drawing practice.",
+          ],
+          color: "#4B5563",
+        },
+      ],
+    },
+    {
+      title: "Training & Industry Exposure",
+      experiences: [
+        {
+          title: "Industrial Attachment Training",
+          company: "Bangladesh Road Transport Corporation (BRTC)",
+          company_url: "https://brtc.gov.bd/",
+          logo_path: "experience.svg",
+          duration: "Mar 2025 - April 2025",
+          location: "Bangladesh",
+          description:
+            "Completed vehicle maintenance and repair training with practical exposure to automotive systems.",
+          features: [
+            "- Studied maintenance workflow, diagnosis, and repair practices.",
+            "- Connected mechanical design knowledge with real vehicle service operations.",
+          ],
+          color: "#667085",
+        },
+        {
+          title: "Industrial Internship",
+          company: "National Engineering Development Limited",
+          company_url: "https://www.linkedin.com/",
+          logo_path: "developerActivity.svg",
+          duration: "Feb 2020 - May 2020",
+          location: "Bangladesh",
+          description:
+            "Completed an industrial internship focused on Programmable Logic Controller (PLC) systems.",
+          features: [
+            "- Worked with industrial control concepts and automation fundamentals.",
+            "- Gained exposure to applied engineering systems in industry settings.",
+          ],
+          color: "#596579",
+        },
+      ],
+    },
+    {
+      title: "Leadership",
+      experiences: [
+        {
+          title: "Executive Member",
+          company: "DUET Robotics Club",
+          company_url: "https://duet.ac.bd/",
+          logo_path: "duet_logo.png",
+          duration: "DUET",
+          location: "Gazipur, Bangladesh",
+          description:
+            "Contributed to robotics activities, project collaboration, and technical community building at DUET.",
+          features: [
+            "- Worked around autonomous robotics, assistive systems, and competition projects.",
+            "- Participated in a technical culture focused on applied engineering problem solving.",
+          ],
+          color: "#708090",
+        },
+        {
+          title: "Vice President",
+          company: "Kapotakkho Student Welfare Association",
+          company_url: "https://duet.ac.bd/",
+          logo_path: "manOnTable.svg",
+          duration: "DUET",
+          location: "Gazipur, Bangladesh",
+          description:
+            "Served in a student welfare leadership role while continuing academic and research work.",
+          features: [
+            "- Supported student engagement, coordination, and welfare activities.",
+            "- Also involved with DUET English Language Club and DUET Society of Mechanical Engineering.",
+          ],
+          color: "#6B7280",
         },
       ],
     },
@@ -546,7 +487,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.",
+    "A selection of robotics, autonomous systems, digital-twin, and AI projects from competitions, university work, and ongoing research. These projects connect mechanical engineering with intelligent sensing, modeling, and real-world system behavior.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -554,27 +495,32 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "tasin.png",
+    profile_image_path: "RM_PIASH.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Basic Programming, ML, AI, Android, Cloud and Opensource Development.",
+      "I am open to research collaboration, robotics and digital twin projects, teaching or mentoring opportunities, and engineering roles related to intelligent systems, simulation, and mechanical design.",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Research Focus",
     subtitle:
-      "I like to write about the projects I've worked on, my current work and discuss my latest foundings. You are most welcome to input your thoughts on my projects.",
-    link: "https://Riad Mahamud Piash.wordpress.com/projects/",
+      "My current interests include digital twin systems, physics-based modeling, AI for autonomous systems, battery thermal modeling, computational materials, and MATLAB-based modeling.",
+    link: "https://rmpiash3.github.io/#/projects",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Banani, Dhaka-1212, Bangladesh",
+    subtitle: "Gazipur, Bangladesh",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/yV1Vkp7L3to9qvKX6",
+    location_map_link: "https://www.google.com/maps/place/Gazipur,+Bangladesh",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+880 1953699363",
+    subtitle: "+880 1575 62 58 55",
   },
+};
+
+const openSource = {
+  githubUserName: "rmpiash3",
+  githubConvertedToken: "",
 };
 
 export {
@@ -591,4 +537,5 @@ export {
   experience,
   projectsHeader,
   contactPageData,
+  openSource,
 };

@@ -1,12 +1,13 @@
 .lmeter { 
     height: 20px;
     position: relative;
-    background: rgb(243, 239, 239);
+    background: linear-gradient(90deg, rgba(31, 41, 55, 0.13), rgba(31, 41, 55, 0.07));
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
     border-radius: 25px;
     margin-top: auto;
     margin-bottom: auto;
+    box-shadow: inset 0 0 0 1px rgba(31, 41, 55, 0.08);
 }
 .lmeter > span {
     display: -webkit-box;
@@ -18,7 +19,7 @@
     border-bottom-right-radius: 6px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: #aaa5ff;
+    background: linear-gradient(90deg, #dc2626, #f97316, #14b8a6);
     position: relative;
     overflow: hidden;
 }
@@ -42,6 +43,16 @@
     margin: 0px auto;
     margin-top: 2rem;
 }
+
+.lskills-heading h1 {
+    font-family: "Google Sans Bold";
+    font-size: 40px;
+    line-height: 1.2;
+    color: #1f2933;
+    margin: 0;
+    padding: 0;
+}
+
 .lskills-container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -98,6 +109,13 @@
     }
     .lskills-image {
         order: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .lskills-heading h1 {
+        font-size: 30px;
+        text-align: left;
     }
 }
   

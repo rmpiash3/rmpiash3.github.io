@@ -8,13 +8,15 @@ class CertificationCard extends Component {
     const theme = this.props.theme;
     return (
       <Fade bottom duration={2000} distance="20px">
-        <div className="cert-card" style={{border: `1px solid ${theme.shadow}`, boxShadow: `5px 5px 5px ${theme.shadow}`}}>
-          <div className="content">
-            <a
-              href={certificate.certificate_link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+        <div className="cert-card">
+          <a
+            className="cert-link"
+            href={certificate.certificate_link}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Open ${certificate.title} certificate PDF`}
+          >
+            <div className="content">
               <div className="content-overlay"></div>
               <div
                 className="cert-header"
@@ -27,23 +29,24 @@ class CertificationCard extends Component {
                 />
               </div>
               <div className="content-details fadeIn-top">
-                <h3 className="content-title" style={{ color: theme.secondarytext }}>
-                  Certificate
+                <h3 className="content-title">
+                  View Certificate
                 </h3>
               </div>
-            </a>
-          </div>
-          <div className="cert-body">
-            <h2 className="cert-body-title" style={{ color: theme.text }}>
-              {certificate.title}
-            </h2>
-            <h3
-              className="cert-body-subtitle"
-              style={{ color: theme.secondaryText }}
-            >
-              {certificate.subtitle}
-            </h3>
-          </div>
+            </div>
+            <div className="cert-body">
+              <h2 className="cert-body-title" style={{ color: theme.text }}>
+                {certificate.title}
+              </h2>
+              <h3
+                className="cert-body-subtitle"
+                style={{ color: theme.secondaryText }}
+              >
+                {certificate.subtitle}
+              </h3>
+              <p className="cert-view-text">Click to open PDF</p>
+            </div>
+          </a>
         </div>
       </Fade>
     );

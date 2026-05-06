@@ -27,7 +27,7 @@ export default function StackProgress(props) {
                 </div>
 
                 <div className="skills-image">
-                    <img alt="Skills" src={require("../../assests/images/skill.svg")} />
+                    <img alt="Engineering proficiency analytics" src={require("../../assests/images/proficiency_analytics.svg")} />
                 </div>
 
             </div>

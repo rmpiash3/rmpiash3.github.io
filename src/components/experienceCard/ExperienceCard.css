@@ -1,13 +1,19 @@
 .experience-card {
   width: 100%;
   margin-bottom: 20px;
-  border-radius: 10px;
+  border-radius: 8px;
   display: flex;
   flex-direction: row;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 16px 36px rgba(220, 38, 38, 0.1);
+  overflow: hidden;
 }
 
 .experience-card-logo-div {
   margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .experience-card-body-div {
@@ -21,6 +27,9 @@
 
 .experience-card-logo {
   width: 70px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #fee2e2, #ffedd5, #ccfbf1);
+  padding: 6px;
 }
 
 .experience-card-title {

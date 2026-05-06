@@ -1,6 +1,6 @@
 .main-button {
-  background-color: #55198b;
-  border: solid 1px #55198b;
+  background: linear-gradient(135deg, #dc2626, #f97316 52%, #14b8a6);
+  border: solid 1px rgba(220, 38, 38, 0.38);
   color: white;
   font-weight: 500;
   line-height: 1.1;
@@ -17,10 +17,11 @@
   font-size: 18px;
   cursor: pointer;
   letter-spacing: 2px;
+  box-shadow: 0 12px 28px rgba(220, 38, 38, 0.22);
 }
 .main-button:hover {
-  /* background-color: #ffffff; */
-  /* color: black; */
+  transform: translateY(-2px);
+  box-shadow: 0 16px 34px rgba(249, 115, 22, 0.28);
   transition: ease-in 0.3s;
 }
 .project-button {

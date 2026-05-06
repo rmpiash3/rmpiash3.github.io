@@ -1,97 +1,89 @@
-<a href="https://hitscounter.dev/"><img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FTasin5541%2Fportfolio&label=visitors&icon=github&color=%23198754"/></a>
+# RIAD MAHAMUD PIASH Portfolio
 
-Watch > All Activity - for getting notified of updates on this project.
+<div align="center">
+  <img src="public/RM_PIASH.png" width="145" alt="RIAD MAHAMUD PIASH" />
 
-If this template helped you, leave a star and link to this repo on your website, so that the project can grow.
+  <h2>RIAD MAHAMUD PIASH</h2>
+  <p><strong>Mechanical Engineer</strong></p>
+  <p>
+    Digital Twin Systems | Robotics & Autonomous Systems | Mechanical Design & Simulation
+  </p>
 
-<p align="center"> 
-    <a href="https://tasin5541.github.io" target="_blank">
-    <img src="images/theme.gif" align="center"></img>
-    </a>
-</p>
+  <p>
+    <a href="https://rmpiash3.github.io/#/">Live Portfolio</a>
+    |
+    <a href="https://rmpiash3.github.io/CV_of_RIAD_MAHAMUD_PIASH.pdf">Resume</a>
+    |
+    <a href="https://www.linkedin.com/in/rmpiash4">LinkedIn</a>
+    |
+    <a href="mailto:riadmahamudpiash@gmail.com">Email</a>
+  </p>
+</div>
 
-# Demo
-To view a live demo, **[click here](https://tasin5541.github.io/)**
+## About
 
-# Toggle Theme
-<p align="center"> 
-    <img src="images/toggle.gif" align="center"></img>
-</p>
+This repository contains the source code for my personal portfolio website. The portfolio presents my work, education, certifications, projects, and engineering interests in digital twin systems, intelligent robotics, physics-based modeling, battery thermal estimation, and AI-enabled autonomous systems.
 
-# How to use
+## Focus Areas
 
-- Remove `<meta http-equiv="refresh" content="0;url=https://tasin5541.github.io/" />` in the `index.html` file
-- You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer 
-- Create a repository in github named username.github.io (your github username in place of username)
-- Open up cmd/powershell in admin mode and enter the following line to download this repository
+- Digital Twin & Physics-Based Modeling
+- Battery Thermal State Estimation
+- Robotics & Autonomous Systems
+- Mechanical Design & Simulation
+- MATLAB / Simulink, Python, PyTorch, YOLO
+- CATIA V5, SolidWorks, AutoCAD, ANSYS CFD
+- Research Writing and Technical Documentation
 
-  - ```python
-     git clone https://github.com/Tasin5541/portfolio.git
-    ```
-- Then go to `C:\Windows\System32\portfolio` in your File Explorer
-- Delete the `.git` file
-- Open `package.json` and add your repository name ("https://your_github_username.github.io") to the homepage section
+## Education
 
-  - ```python
-     "homepage": "https://username.github.io"
-    ```
-    
-- Create a file called .env in the root directory of your project, type the following in cmd/powershell
+- Bachelor of Science in Mechanical Engineering, Dhaka University of Engineering and Technology (DUET)
+- Diploma in Marine Technology, BCMC College of Engineering & Technology
 
-  - ```bash
-    cp env.example .env
-    ```
+## Current Work
 
-- Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this.
+Research Assistant on Sustainable Electricity Generation from Tidal Lagoons at Dhaka University of Engineering & Technology. The work focuses on low-head tidal energy harvesting, tidal lagoon systems, Archimedes screw turbine concepts, hydraulic design analysis, CAD modeling, performance estimation, and technical documentation.
 
-  - ```javascript
-     // .env
-      REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
-    ```
+## Projects
 
-You can get a github token as described [here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token). Give all permissions while generating token. Also add your `githubUserName` in the correct field inside `git_data_fetcher.js`.
+The portfolio includes robotics, autonomous systems, digital twin, and AI-related projects such as:
 
-- You will find `git_data_fetcher.js` file in the main directory of the repository. This file is used to fetch the data (Pull requests, Issues, Organizations, Pinned projects etc.) from your github.
-If you open the file, you will see below component at the top of the file. You need to change only that component.
+- Battery Thermal Digital Twin
+- Autonomous Trash Collector Robot
+- Agro-Robot
+- Voice Braille Navigator
+- Cozmo Clance
+- Meshmerise Robot
 
-  - ```python
-    const openSource = {
-      githubUserName: "Your Github Username Here.",
-    };
-    ```
-- Navigate to `C:\Windows\System32\portfolio\src` and open the `portfolio.js` file to change your information. [Use https://icon-sets.iconify.design/skill-icons/ for changing the skill icons on the home page]
-- Type the following lines in cmd/powershell one by one and press enter after each line
- 
-  - ```python
-     cd portfolio
-     
-     npm install
-     
-     node git_data_fetcher.js
-     
-     npm run build
-     
-     #To view the website in localhost before deploying
-     npm start
-     #press ctrl+c in cmd to stop the localhost if you executed the last command
-     
-     #Deploy to github
-     cd build
-     
-     git init
-     
-     #Use your github username
-     git remote add origin https://github.com/username/username.github.io.git
-     
-     git add .
-     
-     git commit -m 'deploy'
-     
-     git push -u origin master
-    ```
- - You're all set, now visit "username.github.io" to see your website
- - Note: You'll need to copy the `.git` file inside build folder and save it elsewhere. Everytime you update any information run `npm build` and copy the `.git` back into build folder before continuing with `git add .` and the rest of the commands. Remember to copy the `.git` everytime you run `npm build`
+## Built With
 
-# References 👏🏻
+- React
+- JavaScript
+- CSS
+- Iconify / Font Awesome
+- GitHub Pages
 
-- Most of the Design and Implementation Ideas are taken from [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio) and [ashutosh1919 masterPortfolio Project](https://github.com/ashutosh1919/masterPortfolio).
+## Local Development
+
+```bash
+npm install
+npm start
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Deploy
+
+```bash
+npm run deploy
+```
+
+## Contact
+
+- Location: Gazipur, Bangladesh
+- Email: riadmahamudpiash@gmail.com
+- GitHub: [rmpiash3](https://github.com/rmpiash3)
+- Portfolio: [rmpiash3.github.io](https://rmpiash3.github.io/#/)

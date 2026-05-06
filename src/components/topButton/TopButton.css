@@ -4,8 +4,29 @@
   bottom: 1.2rem;
   right: 1.5rem;
   cursor: pointer;
-  padding: 15px;
+  width: 58px;
+  height: 58px;
+  padding: 0;
   outline: none;
-  border-radius: 2rem;
+  border: 0;
+  border-radius: 50%;
   font-size: 1.5rem;
+  color: #ffffff;
+  background: linear-gradient(135deg, #dc2626, #f97316 48%, #14b8a6);
+  box-shadow: 0 16px 34px rgba(31, 41, 55, 0.22);
+  z-index: 999;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#topButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 38px rgba(220, 38, 38, 0.24);
+}
+
+#topButton i {
+  color: #ffffff;
+  line-height: 1;
 }
