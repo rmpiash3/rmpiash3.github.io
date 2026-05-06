@@ -7,6 +7,8 @@ import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import Publications from "../pages/publications/Publications";
+import Moments from "../pages/moments/Moments";
 
 export default class Main extends Component {
   render() {
@@ -61,6 +63,18 @@ export default class Main extends Component {
               path="/projects"
               render={(props) => (
                 <Projects {...props} theme={this.props.theme} />
+              )}
+            />
+            <Route
+              path="/publications"
+              render={(props) => (
+                <Publications {...props} theme={this.props.theme} />
+              )}
+            />
+            <Route
+              path="/moments"
+              render={(props) => (
+                <Moments {...props} theme={this.props.theme} />
               )}
             />
           </Switch>

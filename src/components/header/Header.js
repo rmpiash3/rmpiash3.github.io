@@ -97,6 +97,48 @@ class Header extends Component {
                   Projects
                 </NavLink>
               </li>
+              <li className="dropdown-nav">
+                <NavLink
+                  to="/publications"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  className="dropdown-trigger"
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Publication <span className="dropdown-caret"></span>
+                </NavLink>
+                <div className="dropdown-menu">
+                  <NavLink to="/publications" tag={Link} style={{ color: theme.text }}>
+                    Research Papers
+                  </NavLink>
+                  <NavLink to="/projects" tag={Link} style={{ color: theme.text }}>
+                    Project Reports
+                  </NavLink>
+                </div>
+              </li>
+              <li className="dropdown-nav">
+                <NavLink
+                  to="/moments"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  className="dropdown-trigger"
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Moment <span className="dropdown-caret"></span>
+                </NavLink>
+                <div className="dropdown-menu">
+                  <NavLink to="/moments" tag={Link} style={{ color: theme.text }}>
+                    Photo Gallery
+                  </NavLink>
+                  <NavLink to="/education" tag={Link} style={{ color: theme.text }}>
+                    Certificates
+                  </NavLink>
+                </div>
+              </li>
               <li>
                 <NavLink
                   to="/contact"

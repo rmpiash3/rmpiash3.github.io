@@ -1,0 +1,92 @@
+.publications-main {
+  width: 100%;
+}
+
+.publications-content {
+  width: 90%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 64px 10px 80px;
+}
+
+.publications-hero {
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.section-kicker {
+  font-family: "Google Sans Medium";
+  color: #dc2626;
+  letter-spacing: 0;
+  margin: 0 0 10px;
+}
+
+.publications-hero h1 {
+  font-family: "Google Sans Bold";
+  font-size: 56px;
+  line-height: 1.1;
+  margin: 0 0 18px;
+}
+
+.publications-hero p {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Google Sans Medium";
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.publication-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 22px;
+}
+
+.publication-card {
+  display: block;
+  min-height: 220px;
+  padding: 26px;
+  border-radius: 8px;
+  border: 1px solid rgba(220, 38, 38, 0.14);
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 18px 42px rgba(220, 38, 38, 0.1);
+  text-decoration: none;
+}
+
+.publication-card span {
+  display: inline-block;
+  color: #dc2626;
+  font-family: "Google Sans Medium";
+  margin-bottom: 14px;
+}
+
+.publication-card h2 {
+  color: #1f2933;
+  font-family: "Google Sans Bold";
+  font-size: 26px;
+  line-height: 1.2;
+  margin: 0 0 16px;
+}
+
+.publication-card p {
+  color: #536273;
+  font-family: "Google Sans Regular";
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .publications-content {
+    padding-top: 36px;
+  }
+
+  .publications-hero h1 {
+    font-size: 34px;
+  }
+
+  .publications-hero p {
+    font-size: 16px;
+  }
+}
