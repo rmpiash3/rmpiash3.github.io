@@ -7,7 +7,7 @@ export default function Footer(props) {
     <div className="footer-div">
       <Fade>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          Built with React | RIAD MAHAMUD PIASH
+          © 2026 RIAD MAHAMUD PIASH. All Rights Reserved.
         </p>
       </Fade>
     </div>
