@@ -1,22 +1,39 @@
-/* Cache reset service worker for GitHub Pages.
-   This replaces older Workbox caches so returning visitors get the new site. */
-self.addEventListener("install", () => {
-  self.skipWaiting();
+/**
+ * Welcome to your Workbox-powered service worker!
+ *
+ * You'll need to register this file in your web app and you should
+ * disable HTTP caching for this file too.
+ * See https://goo.gl/nhQhGp
+ *
+ * The rest of the code is auto-generated. Please don't update this file
+ * directly; instead, make changes to your Workbox build configuration
+ * and re-run your build process.
+ * See https://goo.gl/2aRDsh
+ */
+
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+
+importScripts(
+  "/precache-manifest.6037c1315b6784f6ed2161fa2bcd2104.js"
+);
+
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
 });
 
-self.addEventListener("activate", (event) => {
-  event.waitUntil(
-    caches
-      .keys()
-      .then((keys) => Promise.all(keys.map((key) => caches.delete(key))))
-      .then(() => self.registration.unregister())
-      .then(() => self.clients.matchAll({ type: "window" }))
-      .then((clients) =>
-        Promise.all(clients.map((client) => client.navigate(client.url)))
-      )
-  );
-});
+workbox.core.clientsClaim();
 
-self.addEventListener("fetch", (event) => {
-  event.respondWith(fetch(event.request));
+/**
+ * The workboxSW.precacheAndRoute() method efficiently caches and responds to
+ * requests for URLs in the manifest.
+ * See https://goo.gl/S9QRab
+ */
+self.__precacheManifest = [].concat(self.__precacheManifest || []);
+workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/index.html"), {
+  
+  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
