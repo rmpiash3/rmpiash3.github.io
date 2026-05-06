@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f97349e.chunk.css",
-    "main.js": "/static/js/main.a879e9a0.chunk.js",
-    "main.js.map": "/static/js/main.a879e9a0.chunk.js.map",
+    "main.css": "/static/css/main.21d23624.chunk.css",
+    "main.js": "/static/js/main.07fb8c44.chunk.js",
+    "main.js.map": "/static/js/main.07fb8c44.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8025a556.js",
     "runtime-main.js.map": "/static/js/runtime-main.8025a556.js.map",
-    "static/js/2.b0d8c533.chunk.js": "/static/js/2.b0d8c533.chunk.js",
-    "static/js/2.b0d8c533.chunk.js.map": "/static/js/2.b0d8c533.chunk.js.map",
+    "static/js/2.064dde0e.chunk.js": "/static/js/2.064dde0e.chunk.js",
+    "static/js/2.064dde0e.chunk.js.map": "/static/js/2.064dde0e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.eb45d430eda53be34ac0fb49fbf9b56d.js": "/precache-manifest.eb45d430eda53be34ac0fb49fbf9b56d.js",
+    "precache-manifest.41dee75b797a7776bb133a16e0714c1d.js": "/precache-manifest.41dee75b797a7776bb133a16e0714c1d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.8f97349e.chunk.css.map": "/static/css/main.8f97349e.chunk.css.map",
-    "static/js/2.b0d8c533.chunk.js.LICENSE.txt": "/static/js/2.b0d8c533.chunk.js.LICENSE.txt",
+    "static/css/main.21d23624.chunk.css.map": "/static/css/main.21d23624.chunk.css.map",
+    "static/js/2.064dde0e.chunk.js.LICENSE.txt": "/static/js/2.064dde0e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/DUET LOgo_1.png.jpg": "/static/media/DUET LOgo_1.png.e01eb11c.jpg",
     "static/media/RM_PIASH.png": "/static/media/RM_PIASH.99784332.png",
@@ -32,6 +32,8 @@
     "static/media/apple-icon-76x76.png": "/static/media/apple-icon-76x76.2f277981.png",
     "static/media/apple-icon-precomposed.png": "/static/media/apple-icon-precomposed.a07ba9e2.png",
     "static/media/apple-icon.png": "/static/media/apple-icon.a07ba9e2.png",
+    "static/media/bcmc_logo.png": "/static/media/bcmc_logo.547f3836.png",
+    "static/media/bcmc_logo_original.png": "/static/media/bcmc_logo_original.0e980b74.png",
     "static/media/blogs_image.svg": "/static/media/blogs_image.b6b12c7d.svg",
     "static/media/cloud_infrastructure.svg": "/static/media/cloud_infrastructure.dfcb7a58.svg",
     "static/media/codeInLogo.png": "/static/media/codeInLogo.b3685be8.png",
@@ -74,6 +76,7 @@
     "static/media/programmer.svg": "/static/media/programmer.c1a95f73.svg",
     "static/media/projects_image.svg": "/static/media/projects_image.f7964c6b.svg",
     "static/media/pwa.png": "/static/media/pwa.bd5f4148.png",
+    "static/media/robotics_engineering.svg": "/static/media/robotics_engineering.653cd56f.svg",
     "static/media/skill.svg": "/static/media/skill.34409398.svg",
     "static/media/stanford_logo.png": "/static/media/stanford_logo.da0e7c80.png",
     "static/media/sun.svg": "/static/media/sun.4db24c0e.svg",
@@ -83,8 +86,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8025a556.js",
-    "static/js/2.b0d8c533.chunk.js",
-    "static/css/main.8f97349e.chunk.css",
-    "static/js/main.a879e9a0.chunk.js"
+    "static/js/2.064dde0e.chunk.js",
+    "static/css/main.21d23624.chunk.css",
+    "static/js/main.07fb8c44.chunk.js"
   ]
 }
