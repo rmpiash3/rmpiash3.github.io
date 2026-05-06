@@ -1,6 +1,27 @@
 {
   "data": [
     {
+      "id": "riad-project-smart-larva-detection",
+      "name": "Smart Larva Detection & Spraying Robot",
+      "createdAt": "2025-12-28T00:00:00Z",
+      "url": "https://github.com/rmpiash3/smart-larva-detection-spraying-robot",
+      "description": "YOLO-based robotic prototype for detecting mosquito larvae and activating targeted spraying for dengue-control support.",
+      "forkCount": 0,
+      "stargazers": {
+        "totalCount": 1
+      },
+      "languages": [
+        {
+          "name": "YOLO",
+          "iconifyClass": "mdi:crosshairs-gps"
+        },
+        {
+          "name": "Raspberry Pi",
+          "iconifyClass": "simple-icons:raspberrypi"
+        }
+      ]
+    },
+    {
       "id": "riad-project-cozmo-clance",
       "name": "Cozmo Clance",
       "createdAt": "2024-10-25T00:00:00Z",
