@@ -134,6 +134,9 @@ class Header extends Component {
                   <NavLink to="/moments" tag={Link} style={{ color: theme.text }}>
                     Photo Gallery
                   </NavLink>
+                  <NavLink to="/moments/icmmpe-2026" tag={Link} style={{ color: theme.text }}>
+                    ICMMPE 2026
+                  </NavLink>
                 </div>
               </li>
               <li>

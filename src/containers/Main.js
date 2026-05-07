@@ -9,6 +9,7 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import Publications from "../pages/publications/Publications";
 import Moments from "../pages/moments/Moments";
+import ICMMPE2026 from "../pages/moments/ICMMPE2026";
 
 export default class Main extends Component {
   render() {
@@ -72,7 +73,14 @@ export default class Main extends Component {
               )}
             />
             <Route
+              path="/moments/icmmpe-2026"
+              render={(props) => (
+                <ICMMPE2026 {...props} theme={this.props.theme} />
+              )}
+            />
+            <Route
               path="/moments"
+              exact
               render={(props) => (
                 <Moments {...props} theme={this.props.theme} />
               )}

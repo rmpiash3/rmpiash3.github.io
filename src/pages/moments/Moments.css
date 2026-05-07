@@ -43,6 +43,80 @@
   gap: 24px;
 }
 
+.moment-collection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 24px;
+}
+
+.moment-collection-card {
+  display: block;
+  overflow: hidden;
+  min-height: 430px;
+  border-radius: 8px;
+  border: 1px solid rgba(220, 38, 38, 0.14);
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 18px 42px rgba(220, 38, 38, 0.1);
+  color: inherit;
+  text-decoration: none;
+}
+
+.moment-collection-card.is-clickable:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 50px rgba(249, 115, 22, 0.18);
+  transition: 0.22s ease;
+}
+
+.moment-collection-media {
+  height: 250px;
+  border-bottom: 5px solid #dc2626;
+  background: linear-gradient(135deg, rgba(219, 234, 254, 0.78), rgba(204, 251, 241, 0.78));
+}
+
+.moment-collection-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.moment-collection-copy {
+  padding: 24px;
+}
+
+.moment-collection-copy span {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #dc2626;
+  font-family: "Google Sans Medium";
+  font-size: 15px;
+}
+
+.moment-collection-copy h2 {
+  margin: 0 0 14px;
+  color: #1f2933;
+  font-family: "Google Sans Bold";
+  font-size: 30px;
+  line-height: 1.15;
+}
+
+.moment-collection-copy p {
+  margin: 0;
+  color: #536273;
+  font-family: "Google Sans Regular";
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.moment-collection-copy strong {
+  display: inline-flex;
+  margin-top: 18px;
+  color: #0f766e;
+  font-family: "Google Sans Medium";
+  font-size: 16px;
+}
+
 .moment-card {
   min-height: 360px;
   padding: 0 0 22px;
@@ -133,7 +207,7 @@
   font-size: 15px;
 }
 
-.moment-feature h2 {
+.moment-feature h1 {
   margin: 0 0 16px;
   font-family: "Google Sans Bold";
   font-size: 48px;
@@ -226,6 +300,24 @@
   transition: 0.2s ease;
 }
 
+.moment-back-link {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0 22px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  color: #dc2626;
+  text-decoration: none;
+  font-family: "Google Sans Medium";
+  background: rgba(254, 226, 226, 0.82);
+  border: 1px solid rgba(220, 38, 38, 0.16);
+}
+
+.moment-back-link:hover {
+  color: #0f766e;
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
   .moments-content {
     padding-top: 36px;
@@ -252,7 +344,7 @@
     padding: 0;
   }
 
-  .moment-feature h2 {
+  .moment-feature h1 {
     font-size: 34px;
   }
 
