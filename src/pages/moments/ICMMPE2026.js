@@ -38,9 +38,32 @@ const icmmpeGallery = [
   },
 ];
 
+const featuredImage = {
+  title: "ICMMPE 2026",
+  text: "RIAD MAHAMUD PIASH at ICMMPE 2026.",
+  image: require("../../assests/images/moments/icmmpe2026/icmmpe-2026-stage.webp"),
+};
+
 class ICMMPE2026 extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeImage: null,
+    };
+  }
+
+  openImage = (image) => {
+    this.setState({ activeImage: image });
+  };
+
+  closeImage = () => {
+    this.setState({ activeImage: null });
+  };
+
   render() {
     const theme = this.props.theme;
+    const activeImage = this.state.activeImage;
+
     return (
       <div className="moments-main">
         <Header theme={theme} />
@@ -54,10 +77,17 @@ class ICMMPE2026 extends Component {
           <Fade bottom duration={1000} distance="32px">
             <section className="moment-feature">
               <div className="moment-feature-media">
-                <img
-                  src={require("../../assests/images/moments/icmmpe2026/icmmpe-2026-stage.webp")}
-                  alt="RIAD MAHAMUD PIASH at ICMMPE 2026"
-                />
+                <button
+                  className="moment-image-button"
+                  type="button"
+                  onClick={() => this.openImage(featuredImage)}
+                  aria-label="Open ICMMPE 2026 image"
+                >
+                  <img
+                    src={featuredImage.image}
+                    alt="RIAD MAHAMUD PIASH at ICMMPE 2026"
+                  />
+                </button>
               </div>
               <div className="moment-feature-copy">
                 <p className="moment-eyebrow">Conference Publication</p>
@@ -116,7 +146,14 @@ class ICMMPE2026 extends Component {
                 return (
                   <div className="moment-card" key={card.title}>
                     <div className="moment-card-media">
-                      <img src={card.image} alt={card.title} loading="lazy" />
+                      <button
+                        className="moment-image-button"
+                        type="button"
+                        onClick={() => this.openImage(card)}
+                        aria-label={`Open ${card.title} image`}
+                      >
+                        <img src={card.image} alt={card.title} loading="lazy" />
+                      </button>
                     </div>
                     <h2>{card.title}</h2>
                     <p>{card.text}</p>
@@ -126,6 +163,36 @@ class ICMMPE2026 extends Component {
             </div>
           </Fade>
         </div>
+
+        {activeImage && (
+          <div
+            className="moment-lightbox"
+            role="dialog"
+            aria-modal="true"
+            aria-label={activeImage.title}
+            onClick={this.closeImage}
+          >
+            <div
+              className="moment-lightbox-content"
+              onClick={(event) => event.stopPropagation()}
+            >
+              <button
+                className="moment-lightbox-close"
+                type="button"
+                onClick={this.closeImage}
+                aria-label="Close image viewer"
+              >
+                Close
+              </button>
+              <img src={activeImage.image} alt={activeImage.title} />
+              <div className="moment-lightbox-caption">
+                <h2>{activeImage.title}</h2>
+                <p>{activeImage.text}</p>
+              </div>
+            </div>
+          </div>
+        )}
+
         <TopButton theme={theme} />
       </div>
     );

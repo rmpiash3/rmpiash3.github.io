@@ -141,6 +141,25 @@
   object-position: center;
 }
 
+.moment-image-button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
+
+.moment-image-button img {
+  transition: transform 0.24s ease;
+}
+
+.moment-image-button:hover img {
+  transform: scale(1.035);
+}
+
 .moment-card h2 {
   color: #1f2933;
   font-family: "Google Sans Bold";
@@ -186,6 +205,70 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.moment-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 5000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  background: rgba(15, 23, 42, 0.86);
+}
+
+.moment-lightbox-content {
+  position: relative;
+  width: min(1120px, 96vw);
+  max-height: 92vh;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.34);
+}
+
+.moment-lightbox-content img {
+  display: block;
+  width: 100%;
+  max-height: 78vh;
+  object-fit: contain;
+  background: #0f172a;
+}
+
+.moment-lightbox-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 2;
+  padding: 9px 14px;
+  border: 0;
+  border-radius: 999px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #dc2626, #f97316);
+  font-family: "Google Sans Medium";
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.24);
+}
+
+.moment-lightbox-caption {
+  padding: 16px 20px 18px;
+}
+
+.moment-lightbox-caption h2 {
+  margin: 0 0 6px;
+  color: #1f2933;
+  font-family: "Google Sans Bold";
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.moment-lightbox-caption p {
+  margin: 0;
+  color: #536273;
+  font-family: "Google Sans Regular";
+  font-size: 16px;
+  line-height: 1.45;
 }
 
 .moment-feature-copy {
@@ -358,5 +441,18 @@
 
   .moments-grid {
     grid-template-columns: 1fr;
+  }
+
+  .moment-lightbox {
+    padding: 14px;
+  }
+
+  .moment-lightbox-content {
+    width: 100%;
+    max-height: 94vh;
+  }
+
+  .moment-lightbox-content img {
+    max-height: 72vh;
   }
 }
