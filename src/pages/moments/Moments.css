@@ -39,12 +39,12 @@
 
 .moments-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 22px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
 }
 
 .moment-card {
-  min-height: 280px;
+  min-height: 360px;
   padding: 0 0 22px;
   overflow: hidden;
   border-radius: 8px;
@@ -54,11 +54,17 @@
 }
 
 .moment-card-media {
-  height: 150px;
-  background:
-    linear-gradient(135deg, rgba(220, 38, 38, 0.16), rgba(249, 115, 22, 0.14)),
-    linear-gradient(135deg, rgba(219, 234, 254, 0.78), rgba(204, 251, 241, 0.78));
+  height: 220px;
+  background: linear-gradient(135deg, rgba(219, 234, 254, 0.78), rgba(204, 251, 241, 0.78));
   border-bottom: 5px solid #dc2626;
+}
+
+.moment-card-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .moment-card h2 {
@@ -77,6 +83,149 @@
   margin: 0 22px;
 }
 
+.moment-feature {
+  display: grid;
+  grid-template-columns: minmax(360px, 1.08fr) minmax(360px, 0.92fr);
+  gap: 34px;
+  align-items: stretch;
+  margin-bottom: 34px;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(220, 38, 38, 0.16);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.88), rgba(236, 253, 245, 0.72)),
+    linear-gradient(135deg, rgba(254, 226, 226, 0.46), rgba(219, 234, 254, 0.52));
+  box-shadow: 0 22px 50px rgba(220, 38, 38, 0.12);
+  overflow: hidden;
+}
+
+.moment-feature-media {
+  min-height: 420px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 18px 36px rgba(31, 41, 55, 0.16);
+}
+
+.moment-feature-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.moment-feature-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px 8px 8px 0;
+  font-family: "Google Sans Regular";
+}
+
+.moment-eyebrow {
+  width: max-content;
+  margin: 0 0 14px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  color: #dc2626;
+  background: rgba(254, 226, 226, 0.9);
+  font-family: "Google Sans Medium";
+  font-size: 15px;
+}
+
+.moment-feature h2 {
+  margin: 0 0 16px;
+  font-family: "Google Sans Bold";
+  font-size: 48px;
+  line-height: 1.05;
+  color: #1f2933;
+}
+
+.moment-summary {
+  margin: 0 0 20px;
+  color: #536273;
+  font-size: 19px;
+  line-height: 1.55;
+  text-align: justify;
+  text-align-last: left;
+}
+
+.moment-paper {
+  margin-bottom: 18px;
+  padding: 18px;
+  border-radius: 8px;
+  border-left: 5px solid #14b8a6;
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.moment-paper span,
+.moment-meta-grid span {
+  display: block;
+  margin-bottom: 6px;
+  color: #dc2626;
+  font-family: "Google Sans Medium";
+  font-size: 14px;
+}
+
+.moment-paper p {
+  margin: 0 0 8px;
+  color: #1f2933;
+  font-family: "Google Sans Bold";
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.moment-paper small {
+  color: #536273;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.moment-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.moment-meta-grid div {
+  padding: 14px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(20, 184, 166, 0.14);
+}
+
+.moment-meta-grid strong {
+  color: #1f2933;
+  font-family: "Google Sans Medium";
+  font-size: 16px;
+}
+
+.moment-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.moment-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  border-radius: 6px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Google Sans Medium";
+  background: linear-gradient(135deg, #dc2626, #f97316 52%, #14b8a6);
+  box-shadow: 0 12px 28px rgba(220, 38, 38, 0.18);
+}
+
+.moment-links a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 34px rgba(249, 115, 22, 0.24);
+  transition: 0.2s ease;
+}
+
 @media (max-width: 768px) {
   .moments-content {
     padding-top: 36px;
@@ -88,5 +237,34 @@
 
   .moments-hero p {
     font-size: 16px;
+  }
+
+  .moment-feature {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
+
+  .moment-feature-media {
+    min-height: 280px;
+  }
+
+  .moment-feature-copy {
+    padding: 0;
+  }
+
+  .moment-feature h2 {
+    font-size: 34px;
+  }
+
+  .moment-summary {
+    font-size: 16px;
+  }
+
+  .moment-meta-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .moments-grid {
+    grid-template-columns: 1fr;
   }
 }

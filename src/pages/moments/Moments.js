@@ -4,18 +4,36 @@ import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import "./Moments.css";
 
-const momentCards = [
+const icmmpeGallery = [
   {
-    title: "Awards & Certificates",
-    text: "Gift receiving, certificate receiving, and achievement moments.",
+    title: "Conference Entrance",
+    text: "At the ICMMPE 2026 conference venue, DUET, Gazipur.",
+    image: require("../../assests/images/moments/icmmpe2026/icmmpe-2026-stage.webp"),
   },
   {
-    title: "Project Demonstrations",
-    text: "Robot demos, prototype testing, and engineering presentation moments.",
+    title: "Certificate Receiving",
+    text: "Receiving the certificate after paper presentation.",
+    image: require("../../assests/images/moments/icmmpe2026/icmmpe-2026-certificate.webp"),
   },
   {
-    title: "Campus & Training",
-    text: "Academic events, workshops, trainings, and team activities.",
+    title: "Technical Session",
+    text: "Conference session moment with participants and peers.",
+    image: require("../../assests/images/moments/icmmpe2026/icmmpe-2026-seminar.webp"),
+  },
+  {
+    title: "Conference Lunch",
+    text: "Networking and discussion during the conference program.",
+    image: require("../../assests/images/moments/icmmpe2026/icmmpe-2026-launch.webp"),
+  },
+  {
+    title: "Closing Ceremony",
+    text: "Closing ceremony at Radisson Blu Water Garden, Dhaka.",
+    image: require("../../assests/images/moments/icmmpe2026/icmmpe-2026-closing.webp"),
+  },
+  {
+    title: "Industry Expo",
+    text: "Exploring engineering and technology exhibitor booths.",
+    image: require("../../assests/images/moments/icmmpe2026/icmmpe-2026-expo.webp"),
   },
 ];
 
@@ -31,16 +49,78 @@ class Moments extends Component {
               <p className="section-kicker">Gallery</p>
               <h1 style={{ color: theme.text }}>Moments</h1>
               <p style={{ color: theme.secondaryText }}>
-                A visual archive for awards, certificates, project demonstrations, campus activities, and professional milestones.
+                A visual archive for awards, publications, project demonstrations, campus activities, and professional milestones.
               </p>
             </section>
           </Fade>
+
+          <Fade bottom duration={1000} distance="32px">
+            <section className="moment-feature">
+              <div className="moment-feature-media">
+                <img
+                  src={require("../../assests/images/moments/icmmpe2026/icmmpe-2026-stage.webp")}
+                  alt="RIAD MAHAMUD PIASH at ICMMPE 2026"
+                />
+              </div>
+              <div className="moment-feature-copy">
+                <p className="moment-eyebrow">Conference Publication</p>
+                <h2>ICMMPE 2026</h2>
+                <p className="moment-summary">
+                  Participated in the 3rd International Conference on Mechanical,
+                  Manufacturing and Process Engineering (ICMMPE 2026), organized by
+                  the Faculty of Mechanical Engineering, DUET, Gazipur.
+                </p>
+                <div className="moment-paper">
+                  <span>My Paper</span>
+                  <p>
+                    Tomato &amp; Potato Leaf Disease Classification Using YOLO V11
+                  </p>
+                  <small>
+                    Paper ID 196 · Food Engineering Technical Session · Physical presentation
+                  </small>
+                </div>
+                <div className="moment-meta-grid">
+                  <div>
+                    <span>Date</span>
+                    <strong>30-31 Jan 2026</strong>
+                  </div>
+                  <div>
+                    <span>Venue</span>
+                    <strong>DUET, Gazipur</strong>
+                  </div>
+                  <div>
+                    <span>Mode</span>
+                    <strong>Hybrid</strong>
+                  </div>
+                </div>
+                <div className="moment-links">
+                  <a
+                    href="https://icmmpeduet.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit Website
+                  </a>
+                  <a
+                    href="https://icmmpeduet.com/wp-content/uploads/2026/01/Paper-List_Field-wise-with-Schedule-Final_Jan-28-2026_Corrected-With-Session-Chair-and-Co-Chair.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View Schedule
+                  </a>
+                </div>
+              </div>
+            </section>
+          </Fade>
+
           <Fade bottom duration={1000} distance="32px">
             <div className="moments-grid">
-              {momentCards.map((card) => {
+              {icmmpeGallery.map((card) => {
                 return (
                   <div className="moment-card">
-                    <div className="moment-card-media"></div>
+                    <div className="moment-card-media">
+                      <img src={card.image} alt={card.title} loading="lazy" />
+                    </div>
                     <h2>{card.title}</h2>
                     <p>{card.text}</p>
                   </div>
