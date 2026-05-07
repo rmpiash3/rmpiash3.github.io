@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.bee985bc.chunk.css",
-    "main.js": "/static/js/main.3d352387.chunk.js",
-    "main.js.map": "/static/js/main.3d352387.chunk.js.map",
+    "main.css": "/static/css/main.a8bb3197.chunk.css",
+    "main.js": "/static/js/main.bcbd3738.chunk.js",
+    "main.js.map": "/static/js/main.bcbd3738.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8025a556.js",
     "runtime-main.js.map": "/static/js/runtime-main.8025a556.js.map",
-    "static/js/2.fa9cc53b.chunk.js": "/static/js/2.fa9cc53b.chunk.js",
-    "static/js/2.fa9cc53b.chunk.js.map": "/static/js/2.fa9cc53b.chunk.js.map",
+    "static/js/2.d5186ed2.chunk.js": "/static/js/2.d5186ed2.chunk.js",
+    "static/js/2.d5186ed2.chunk.js.map": "/static/js/2.d5186ed2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6e1fa8f057d25c99d5f33f4062e29250.js": "/precache-manifest.6e1fa8f057d25c99d5f33f4062e29250.js",
+    "precache-manifest.7411378549207406920ebc484af240ef.js": "/precache-manifest.7411378549207406920ebc484af240ef.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.bee985bc.chunk.css.map": "/static/css/main.bee985bc.chunk.css.map",
-    "static/js/2.fa9cc53b.chunk.js.LICENSE.txt": "/static/js/2.fa9cc53b.chunk.js.LICENSE.txt",
+    "static/css/main.a8bb3197.chunk.css.map": "/static/css/main.a8bb3197.chunk.css.map",
+    "static/js/2.d5186ed2.chunk.js.LICENSE.txt": "/static/js/2.d5186ed2.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/RM_PIASH.webp": "/static/media/RM_PIASH.7eacae7d.webp",
     "static/media/address_image.svg": "/static/media/address_image.3b021f8f.svg",
@@ -56,6 +56,12 @@
     "static/media/googleAssistant.svg": "/static/media/googleAssistant.c24ba791.svg",
     "static/media/home_04.webp": "/static/media/home_04.70482702.webp",
     "static/media/ibm_logo.png": "/static/media/ibm_logo.6d325fec.png",
+    "static/media/icmmpe-2026-certificate.webp": "/static/media/icmmpe-2026-certificate.dca2badd.webp",
+    "static/media/icmmpe-2026-closing.webp": "/static/media/icmmpe-2026-closing.4decd73e.webp",
+    "static/media/icmmpe-2026-expo.webp": "/static/media/icmmpe-2026-expo.9e968bea.webp",
+    "static/media/icmmpe-2026-launch.webp": "/static/media/icmmpe-2026-launch.1e3d91e0.webp",
+    "static/media/icmmpe-2026-seminar.webp": "/static/media/icmmpe-2026-seminar.b991c0c2.webp",
+    "static/media/icmmpe-2026-stage.webp": "/static/media/icmmpe-2026-stage.5e1e8af4.webp",
     "static/media/iiitk_logo.png": "/static/media/iiitk_logo.c350d799.png",
     "static/media/intel_logo.jpg": "/static/media/intel_logo.29152cf7.jpg",
     "static/media/jsFramework.svg": "/static/media/jsFramework.b05ae5b5.svg",
@@ -92,8 +98,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8025a556.js",
-    "static/js/2.fa9cc53b.chunk.js",
-    "static/css/main.bee985bc.chunk.css",
-    "static/js/main.3d352387.chunk.js"
+    "static/js/2.d5186ed2.chunk.js",
+    "static/css/main.a8bb3197.chunk.css",
+    "static/js/main.bcbd3738.chunk.js"
   ]
 }

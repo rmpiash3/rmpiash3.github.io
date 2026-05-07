@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c086bcb24dc31b8067f7179462d94121",
+    "revision": "92a90871706b133ae5908c0ddf21e8a0",
     "url": "/index.html"
   },
   {
-    "revision": "6c27a2b015a7727540d4",
-    "url": "/static/css/main.bee985bc.chunk.css"
+    "revision": "cefea22c494e120e021a",
+    "url": "/static/css/main.a8bb3197.chunk.css"
   },
   {
-    "revision": "7035f5b04cb6961884d7",
-    "url": "/static/js/2.fa9cc53b.chunk.js"
+    "revision": "eff2e29e488790491b43",
+    "url": "/static/js/2.d5186ed2.chunk.js"
   },
   {
     "revision": "1cd8323dc88584766ceceaede38c57bd",
-    "url": "/static/js/2.fa9cc53b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d5186ed2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c27a2b015a7727540d4",
-    "url": "/static/js/main.3d352387.chunk.js"
+    "revision": "cefea22c494e120e021a",
+    "url": "/static/js/main.bcbd3738.chunk.js"
   },
   {
     "revision": "ffa35ce8a4c087fe7422",
@@ -282,6 +282,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6d325fec19fe3b6b169d9012f9a1dfb9",
     "url": "/static/media/ibm_logo.6d325fec.png"
+  },
+  {
+    "revision": "dca2baddd2a9094c1c498d72dfe5a42b",
+    "url": "/static/media/icmmpe-2026-certificate.dca2badd.webp"
+  },
+  {
+    "revision": "4decd73eac9d735aed575384adbc6b05",
+    "url": "/static/media/icmmpe-2026-closing.4decd73e.webp"
+  },
+  {
+    "revision": "9e968bea0832dff04ba66117ab75201c",
+    "url": "/static/media/icmmpe-2026-expo.9e968bea.webp"
+  },
+  {
+    "revision": "1e3d91e017216e24535bb2db0a38a66d",
+    "url": "/static/media/icmmpe-2026-launch.1e3d91e0.webp"
+  },
+  {
+    "revision": "b991c0c2523f206334c0957620971e27",
+    "url": "/static/media/icmmpe-2026-seminar.b991c0c2.webp"
+  },
+  {
+    "revision": "5e1e8af4a4d8569dd9afbb8bb54af8b2",
+    "url": "/static/media/icmmpe-2026-stage.5e1e8af4.webp"
   },
   {
     "revision": "c350d7996596e9909fe72c0938cc9ee5",
