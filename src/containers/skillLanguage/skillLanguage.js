@@ -20,7 +20,10 @@ export default function SkillLanguage(props) {
                         };
                         return (
                         <div className="lskill">
-                            <p>{exp.Stack}</p>
+                            <div className="lskill-title-row">
+                                <p>{exp.Stack}</p>
+                                <span>{exp.progressPercentage}</span>
+                            </div>
                             <div className="lmeter">
                                 <span style={progressStyle}></span>
                             </div>
@@ -38,7 +41,10 @@ export default function SkillLanguage(props) {
                         };
                         return (
                         <div className="lskill">
-                            <p>{exp.Stack}</p>
+                            <div className="lskill-title-row">
+                                <p>{exp.Stack}</p>
+                                <span>{exp.progressPercentage}</span>
+                            </div>
                             <div className="lmeter">
                                 <span style={progressStyle}></span>
                             </div>

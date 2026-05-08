@@ -17,7 +17,10 @@ export default function StackProgress(props) {
                         };
                         return (
                         <div className="skill">
-                            <p>{exp.Stack}</p>
+                            <div className="skill-title-row">
+                                <p>{exp.Stack}</p>
+                                <span>{exp.progressPercentage}</span>
+                            </div>
                             <div className="meter">
                                 <span style={progressStyle}></span>
                             </div>
