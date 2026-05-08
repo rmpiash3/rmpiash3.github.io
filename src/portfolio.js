@@ -203,26 +203,128 @@ const tools = {
     {
       Stack: "CATIA V5",
       progressPercentage: "84%",
+      workTypes: [
+        {
+          title: "Design Images",
+          description: "Rendered views and design screenshots.",
+          link: "",
+        },
+        {
+          title: "CATPart / Assembly",
+          description: "Original CATIA part and assembly files.",
+          link: "",
+        },
+        {
+          title: "Drafting Sheets",
+          description: "2D drawings, dimensions, and export sheets.",
+          link: "",
+        },
+      ],
     },
     {
       Stack: "SolidWorks",
       progressPercentage: "82%",
+      workTypes: [
+        {
+          title: "Part Models",
+          description: "SolidWorks part and assembly files.",
+          link: "",
+        },
+        {
+          title: "Render Images",
+          description: "Product renders and design previews.",
+          link: "",
+        },
+        {
+          title: "Drawing Files",
+          description: "Engineering drawings and technical sheets.",
+          link: "",
+        },
+      ],
     },
     {
       Stack: "AutoCAD",
       progressPercentage: "80%",
+      workTypes: [
+        {
+          title: "2D Drawings",
+          description: "Mechanical drawing layouts and plans.",
+          link: "",
+        },
+        {
+          title: "DWG / DXF Files",
+          description: "Original AutoCAD source files.",
+          link: "",
+        },
+        {
+          title: "PDF Sheets",
+          description: "Exported drawing sheets for viewing.",
+          link: "",
+        },
+      ],
     },
     {
       Stack: "ANSYS CFD",
       progressPercentage: "78%",
+      workTypes: [
+        {
+          title: "Simulation Video",
+          description: "Flow, thermal, and result animation clips.",
+          link: "",
+        },
+        {
+          title: "Result Images",
+          description: "Contours, streamlines, and result plots.",
+          link: "",
+        },
+        {
+          title: "Project Files",
+          description: "Original setup, mesh, and solver files.",
+          link: "",
+        },
+      ],
     },
     {
       Stack: "MATLAB / Simulink",
       progressPercentage: "86%",
+      workTypes: [
+        {
+          title: "MATLAB Code",
+          description: "Scripts, functions, and analysis notebooks.",
+          link: "",
+        },
+        {
+          title: "Simulink Models",
+          description: "Original Simulink model files.",
+          link: "",
+        },
+        {
+          title: "Plots / Results",
+          description: "Simulation plots and technical outputs.",
+          link: "",
+        },
+      ],
     },
     {
       Stack: "MS Office",
       progressPercentage: "88%",
+      workTypes: [
+        {
+          title: "Reports",
+          description: "Technical reports and project documents.",
+          link: "",
+        },
+        {
+          title: "Presentations",
+          description: "Slides for project explanation and defense.",
+          link: "",
+        },
+        {
+          title: "Data Sheets",
+          description: "Tables, calculations, and analysis sheets.",
+          link: "",
+        },
+      ],
     },
   ],
 };
