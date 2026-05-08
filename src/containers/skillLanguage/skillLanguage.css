@@ -93,6 +93,127 @@
     height: auto;
 }
 
+.language-work-showcase {
+    width: 90%;
+    margin: 24px auto 0;
+    padding: 28px 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(220, 38, 38, 0.14);
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(236, 253, 245, 0.68)),
+        linear-gradient(135deg, rgba(254, 226, 226, 0.46), rgba(219, 234, 254, 0.52));
+    box-shadow: 0 18px 42px rgba(220, 38, 38, 0.1);
+    box-sizing: border-box;
+}
+
+.language-work-heading {
+    margin-bottom: 22px;
+}
+
+.language-work-heading p {
+    margin: 0 0 8px;
+    color: #dc2626;
+    font-family: "Google Sans Medium";
+    font-size: 15px;
+}
+
+.language-work-heading h2 {
+    margin: 0;
+    color: #1f2933;
+    font-family: "Google Sans Bold";
+    font-size: 30px;
+    line-height: 1.25;
+}
+
+.language-work-card {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(20, 184, 166, 0.14);
+    background: rgba(255, 255, 255, 0.78);
+    box-shadow: 0 12px 28px rgba(31, 41, 55, 0.07);
+}
+
+.language-work-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.language-work-card-header span {
+    display: block;
+    margin-bottom: 6px;
+    color: #dc2626;
+    font-family: "Google Sans Medium";
+    font-size: 14px;
+}
+
+.language-work-card-header h3 {
+    margin: 0;
+    color: #1f2933;
+    font-family: "Google Sans Bold";
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+.language-work-card-header strong {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 58px;
+    padding: 7px 12px;
+    border-radius: 999px;
+    color: #0f766e;
+    background: rgba(204, 251, 241, 0.8);
+    font-family: "Google Sans Medium";
+    font-size: 15px;
+}
+
+.language-work-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 10px;
+}
+
+.language-work-link {
+    display: block;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(31, 41, 55, 0.1);
+    color: #1f2933;
+    background: rgba(255, 255, 255, 0.72);
+}
+
+.language-work-link strong {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Google Sans Medium";
+    font-size: 16px;
+}
+
+.language-work-link small {
+    display: block;
+    color: #536273;
+    font-family: "Google Sans Regular";
+    font-size: 13px;
+    line-height: 1.45;
+}
+
+.language-work-link em {
+    display: inline-flex;
+    margin-top: 9px;
+    color: #dc2626;
+    font-family: "Google Sans Medium";
+    font-size: 12px;
+    font-style: normal;
+}
+
+.language-work-link.is-pending {
+    cursor: default;
+    opacity: 0.82;
+}
+
 /* Media Query */
 
 @media (max-width: 1380px) {
@@ -125,6 +246,16 @@
     }
     .lskills-image {
         order: 2;
+    }
+    .language-work-card-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .language-work-showcase {
+        padding: 22px 16px;
+    }
+    .language-work-heading h2 {
+        font-size: 24px;
     }
 }
 

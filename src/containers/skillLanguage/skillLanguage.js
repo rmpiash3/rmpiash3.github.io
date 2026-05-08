@@ -3,6 +3,64 @@ import "./skillLanguage.css";
 import { sLanguage } from "../../portfolio";
 import { Fade } from "react-reveal";
 
+const aiWorkTypes = [
+    {
+        title: "Training Code",
+        description: "Python and PyTorch training scripts for computer vision models.",
+    },
+    {
+        title: "YOLO Models",
+        description: "YOLO weights, detection configs, and model outputs.",
+    },
+    {
+        title: "Dataset / Labels",
+        description: "Image datasets, annotations, and preprocessing workflow.",
+    },
+    {
+        title: "Result Images",
+        description: "Detection, classification, confusion matrix, and performance visuals.",
+    },
+    {
+        title: "Demo Video",
+        description: "Real-time detection or model demonstration video.",
+    },
+    {
+        title: "Project Report",
+        description: "Technical explanation, methodology, results, and documentation.",
+    },
+];
+
+function AIWorkShowcase() {
+    return (
+        <div className="language-work-showcase">
+            <div className="language-work-heading">
+                <p>Combined Work Type</p>
+                <h2>YOLO + Python + PyTorch</h2>
+            </div>
+            <div className="language-work-card">
+                <div className="language-work-card-header">
+                    <div>
+                        <span>AI / Computer Vision Work</span>
+                        <h3>Model Training, Detection, and Result Showcase</h3>
+                    </div>
+                    <strong>76%</strong>
+                </div>
+                <div className="language-work-links">
+                    {aiWorkTypes.map((work) => {
+                        return (
+                            <span className="language-work-link is-pending" key={work.title}>
+                                <strong>{work.title}</strong>
+                                <small>{work.description}</small>
+                                <em>Coming soon</em>
+                            </span>
+                        );
+                    })}
+                </div>
+            </div>
+        </div>
+    );
+}
+
 export default function SkillLanguage(props) {
     if (sLanguage.viewSkillBars) {
         return (
@@ -55,6 +113,7 @@ export default function SkillLanguage(props) {
             </Fade>
 
             </div>
+            <AIWorkShowcase />
             </Fade>
         );
     }
