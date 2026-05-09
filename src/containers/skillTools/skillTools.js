@@ -110,7 +110,7 @@ function ToolWorkShowcase() {
     <div className="tool-work-showcase">
       <div className="tool-work-heading">
         <p>Work Showcase Slots</p>
-        <h2>Click a work type to view design files, images, videos, and reports once uploaded.</h2>
+        <h2>Open a work type to explore design files, images, videos, reports, and GitHub source folders.</h2>
       </div>
       <div className="tool-work-grid">
         {tools.experience.map((tool) => {
