@@ -10,6 +10,7 @@ import Projects from "../pages/projects/Projects";
 import Publications from "../pages/publications/Publications";
 import Moments from "../pages/moments/Moments";
 import ICMMPE2026 from "../pages/moments/ICMMPE2026";
+import CatiaWorks from "../pages/catia/CatiaWorks";
 
 export default class Main extends Component {
   render() {
@@ -33,6 +34,12 @@ export default class Main extends Component {
               path="/skill"
               render={(props) => (
                 <Skill {...props} theme={this.props.theme} />
+              )}
+            />
+            <Route
+              path="/catia-works"
+              render={(props) => (
+                <CatiaWorks {...props} theme={this.props.theme} />
               )}
             />
             <Route
