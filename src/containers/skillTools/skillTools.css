@@ -144,6 +144,10 @@
     box-shadow: 0 12px 28px rgba(31, 41, 55, 0.07);
 }
 
+.tool-work-card.has-projects {
+    grid-column: 1 / -1;
+}
+
 .tool-work-card-header {
     display: flex;
     align-items: center;
@@ -228,6 +232,99 @@
     transform: none;
     box-shadow: none;
     border-color: rgba(31, 41, 55, 0.1);
+}
+
+.tool-project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 18px;
+}
+
+.tool-project-card {
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid rgba(31, 41, 55, 0.1);
+    background: rgba(255, 255, 255, 0.82);
+    box-shadow: 0 12px 24px rgba(31, 41, 55, 0.07);
+}
+
+.tool-project-cover {
+    display: block;
+    height: 190px;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(254, 226, 226, 0.56), rgba(204, 251, 241, 0.72));
+    border-bottom: 5px solid #dc2626;
+}
+
+.tool-project-cover img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.24s ease;
+}
+
+.tool-project-cover:hover img {
+    transform: scale(1.035);
+}
+
+.tool-project-copy {
+    padding: 18px;
+}
+
+.tool-project-copy h4 {
+    margin: 0 0 10px;
+    color: #1f2933;
+    font-family: "Google Sans Bold";
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.tool-project-copy p {
+    margin: 0 0 14px;
+    color: #536273;
+    font-family: "Google Sans Regular";
+    font-size: 14px;
+    line-height: 1.45;
+    text-align: justify;
+    text-align-last: left;
+}
+
+.tool-project-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tool-project-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 11px;
+    border-radius: 999px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #dc2626, #f97316 52%, #14b8a6);
+    font-family: "Google Sans Medium";
+    font-size: 13px;
+    line-height: 1.1;
+    text-decoration: none;
+    box-shadow: 0 8px 18px rgba(220, 38, 38, 0.16);
+}
+
+.tool-project-actions a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(249, 115, 22, 0.2);
+    transition: 0.2s ease;
+}
+
+.tool-project-note {
+    display: block;
+    margin-top: 12px;
+    color: #dc2626;
+    font-family: "Google Sans Medium";
+    font-size: 12px;
+    line-height: 1.4;
 }
 .tool-container > *:nth-child(1) {
     flex: 1;

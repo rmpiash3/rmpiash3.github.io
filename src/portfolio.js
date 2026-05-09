@@ -220,6 +220,297 @@ const tools = {
           link: "",
         },
       ],
+      works: [
+        {
+          title: "4 Dimension Model",
+          description:
+            "CATIA V5 4D practice model with rendered preview and CATPart source file.",
+          coverImage: "/catia-works/4-dimension-model/image-1.webp",
+          images: [
+            {
+              title: "4D",
+              path: "/catia-works/4-dimension-model/image-1.webp",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/4-dimension-model/4-dimension-model-catia-files.zip",
+          sourceCount: 1,
+          videos: [],
+        },
+        {
+          title: "Steel Bar Deformation Analysis",
+          description:
+            "Steel bar deformation study with CATIA analysis setup, CATPart files, and post-processing video.",
+          coverImage:
+            "/catia-works/steel-bar-deformation-analysis/image-1.webp",
+          images: [
+            {
+              title: "Steel Bar",
+              path: "/catia-works/steel-bar-deformation-analysis/image-1.webp",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/steel-bar-deformation-analysis/steel-bar-deformation-analysis-catia-files.zip",
+          sourceCount: 3,
+          videos: [
+            {
+              title: "Post",
+              path: "/catia-works/steel-bar-deformation-analysis/video-1.mp4",
+            },
+          ],
+        },
+        {
+          title: "Car Jack Assembly",
+          description:
+            "Mechanical car jack assembly modeled from multiple CATParts with CATProduct assembly file.",
+          coverImage: "/catia-works/car-jack-assembly/image-1.webp",
+          images: [
+            {
+              title: "Print File",
+              path: "/catia-works/car-jack-assembly/image-1.webp",
+            },
+            {
+              title: "Print File 02",
+              path: "/catia-works/car-jack-assembly/image-2.webp",
+            },
+            {
+              title: "Print File 03",
+              path: "/catia-works/car-jack-assembly/image-3.webp",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/car-jack-assembly/car-jack-assembly-catia-files.zip",
+          sourceCount: 8,
+          videos: [],
+        },
+        {
+          title: "Chair Design",
+          description:
+            "Chair model design with CATPart source file and preview render.",
+          coverImage: "/catia-works/chair-design/image-1.webp",
+          images: [
+            {
+              title: "Chair",
+              path: "/catia-works/chair-design/image-1.webp",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/chair-design/chair-design-catia-files.zip",
+          sourceCount: 1,
+          videos: [],
+        },
+        {
+          title: "Class Practice Parts",
+          description:
+            "CATIA class practice models including basic parts, design exercises, and preview images.",
+          coverImage: "/catia-works/class-practice-parts/image-1.webp",
+          images: [
+            {
+              title: "Part 10",
+              path: "/catia-works/class-practice-parts/image-1.webp",
+            },
+            {
+              title: "01",
+              path: "/catia-works/class-practice-parts/image-2.webp",
+            },
+            {
+              title: "02",
+              path: "/catia-works/class-practice-parts/image-3.webp",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/class-practice-parts/class-practice-parts-catia-files.zip",
+          sourceCount: 13,
+          videos: [],
+        },
+        {
+          title: "Class 3D Exercises",
+          description:
+            "3D class exercise models with CATPart source files and exercise preview images.",
+          coverImage: "/catia-works/class-3d-exercises/image-1.webp",
+          images: [
+            {
+              title: "Ex 02",
+              path: "/catia-works/class-3d-exercises/image-1.webp",
+            },
+            {
+              title: "Ex 07",
+              path: "/catia-works/class-3d-exercises/image-2.webp",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/class-3d-exercises/class-3d-exercises-catia-files.zip",
+          sourceCount: 3,
+          videos: [],
+        },
+        {
+          title: "Class Project 1 Assembly",
+          description:
+            "CATIA assembly project with top, middle, bottom components and CATProduct file.",
+          coverImage: "/catia-works/class-project-1-assembly/image-1.webp",
+          images: [
+            {
+              title: "Final",
+              path: "/catia-works/class-project-1-assembly/image-1.webp",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/class-project-1-assembly/class-project-1-assembly-catia-files.zip",
+          sourceCount: 8,
+          videos: [],
+        },
+        {
+          title: "Class Project 2 Assembly",
+          description:
+            "Second CATIA assembly project with separate parts, final preview, and CATProduct assembly.",
+          coverImage: "/catia-works/class-project-2-assembly/image-1.webp",
+          images: [
+            {
+              title: "Final",
+              path: "/catia-works/class-project-2-assembly/image-1.webp",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/class-project-2-assembly/class-project-2-assembly-catia-files.zip",
+          sourceCount: 5,
+          videos: [],
+        },
+        {
+          title: "Engine Assembly Simulation",
+          description:
+            "Engine assembly model with crankshaft, piston, connecting rod files, assembly images, and simulation video.",
+          coverImage: "/catia-works/engine-assembly-simulation/image-1.webp",
+          images: [
+            {
+              title: "Engine Assembly",
+              path: "/catia-works/engine-assembly-simulation/image-1.webp",
+            },
+            {
+              title: "Connecting Rod Sub Assembly",
+              path: "/catia-works/engine-assembly-simulation/image-2.webp",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/engine-assembly-simulation/engine-assembly-simulation-catia-files.zip",
+          sourceCount: 9,
+          videos: [
+            {
+              title: "Project",
+              path: "/catia-works/engine-assembly-simulation/video-1.mp4",
+            },
+          ],
+        },
+        {
+          title: "Exhaust Manifold Design",
+          description:
+            "Exhaust manifold surface and solid design with CATPart source and multiple preview angles.",
+          coverImage: "/catia-works/exhaust-manifold-design/image-1.webp",
+          images: [
+            {
+              title: "Manifold 03",
+              path: "/catia-works/exhaust-manifold-design/image-1.webp",
+            },
+            {
+              title: "Manifold 04",
+              path: "/catia-works/exhaust-manifold-design/image-2.webp",
+            },
+            {
+              title: "Manifold 01",
+              path: "/catia-works/exhaust-manifold-design/image-3.webp",
+            },
+            {
+              title: "Manifold 02",
+              path: "/catia-works/exhaust-manifold-design/image-4.webp",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/exhaust-manifold-design/exhaust-manifold-design-catia-files.zip",
+          sourceCount: 1,
+          videos: [],
+        },
+        {
+          title: "Nut Bolt Assembly Simulation",
+          description:
+            "Nut and bolt CATIA assembly with source parts, CATProduct file, preview image, and simulation video.",
+          coverImage:
+            "/catia-works/nut-bolt-assembly-simulation/image-1.webp",
+          images: [
+            {
+              title: "Nut Bolt Assembly",
+              path: "/catia-works/nut-bolt-assembly-simulation/image-1.webp",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/nut-bolt-assembly-simulation/nut-bolt-assembly-simulation-catia-files.zip",
+          sourceCount: 3,
+          videos: [
+            {
+              title: "Simulation Video",
+              path: "/catia-works/nut-bolt-assembly-simulation/video-1.mp4",
+            },
+          ],
+        },
+        {
+          title: "Surface Bottle Design",
+          description:
+            "Bottle model created with CATIA surface design workflow and source CATPart file.",
+          coverImage: "/catia-works/surface-bottle-design/image-1.webp",
+          images: [
+            {
+              title: "Bottle",
+              path: "/catia-works/surface-bottle-design/image-1.webp",
+            },
+            {
+              title: "Bottle 01",
+              path: "/catia-works/surface-bottle-design/image-2.webp",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/surface-bottle-design/surface-bottle-design-catia-files.zip",
+          sourceCount: 1,
+          videos: [],
+        },
+        {
+          title: "UAV Drone Design",
+          description:
+            "UAV drone body concept modeled in CATIA V5 with source CATPart and preview image.",
+          coverImage: "/catia-works/uav-drone-design/image-1.webp",
+          images: [
+            {
+              title: "UAVs",
+              path: "/catia-works/uav-drone-design/image-1.webp",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/uav-drone-design/uav-drone-design-catia-files.zip",
+          sourceCount: 1,
+          videos: [],
+        },
+        {
+          title: "Universal Joint Assembly Simulation",
+          description:
+            "Universal joint assembly with shaft, bearing, cross parts, CATProduct file, preview image, and simulation video.",
+          coverImage:
+            "/catia-works/universal-joint-assembly-simulation/image-1.webp",
+          images: [
+            {
+              title: "IMG",
+              path: "/catia-works/universal-joint-assembly-simulation/image-1.webp",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/universal-joint-assembly-simulation/universal-joint-assembly-simulation-catia-files.zip",
+          sourceCount: 4,
+          videos: [
+            {
+              title: "VID 01",
+              path: "/catia-works/universal-joint-assembly-simulation/video-1.mp4",
+            },
+          ],
+          note:
+            "Large AVI animation was not added to keep the GitHub repository usable; MP4 video is included.",
+        },
+      ],
     },
     {
       Stack: "SolidWorks",

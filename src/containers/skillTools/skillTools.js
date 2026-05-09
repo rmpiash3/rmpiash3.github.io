@@ -26,6 +26,65 @@ function ToolBar({ items }) {
   );
 }
 
+function ToolProjectGallery({ tool }) {
+  return (
+    <div className="tool-project-grid">
+      {tool.works.map((work) => {
+        return (
+          <div className="tool-project-card" key={work.title}>
+            <a
+              className="tool-project-cover"
+              href={work.coverImage}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={work.coverImage} alt={work.title} loading="lazy" />
+            </a>
+            <div className="tool-project-copy">
+              <h4>{work.title}</h4>
+              <p>{work.description}</p>
+              <div className="tool-project-actions">
+                {work.images.map((image, index) => {
+                  return (
+                    <a
+                      href={image.path}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      key={image.path}
+                    >
+                      Image {index + 1}
+                    </a>
+                  );
+                })}
+                <a
+                  href={work.sourcePackage}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CATIA Files ({work.sourceCount})
+                </a>
+                {work.videos.map((video, index) => {
+                  return (
+                    <a
+                      href={video.path}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      key={video.path}
+                    >
+                      Video {index + 1}
+                    </a>
+                  );
+                })}
+              </div>
+              {work.note && <small className="tool-project-note">{work.note}</small>}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 function ToolWorkShowcase() {
   return (
     <div className="tool-work-showcase">
@@ -36,37 +95,44 @@ function ToolWorkShowcase() {
       <div className="tool-work-grid">
         {tools.experience.map((tool) => {
           return (
-            <div className="tool-work-card" key={tool.Stack}>
+            <div
+              className={`tool-work-card${tool.works ? " has-projects" : ""}`}
+              key={tool.Stack}
+            >
               <div className="tool-work-card-header">
                 <h3>{tool.Stack}</h3>
                 <span>{tool.progressPercentage}</span>
               </div>
-              <div className="tool-work-links">
-                {tool.workTypes.map((work) => {
-                  if (work.link) {
+              {tool.works ? (
+                <ToolProjectGallery tool={tool} />
+              ) : (
+                <div className="tool-work-links">
+                  {tool.workTypes.map((work) => {
+                    if (work.link) {
+                      return (
+                        <a
+                          className="tool-work-link"
+                          href={work.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          key={work.title}
+                        >
+                          <strong>{work.title}</strong>
+                          <small>{work.description}</small>
+                        </a>
+                      );
+                    }
+
                     return (
-                      <a
-                        className="tool-work-link"
-                        href={work.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        key={work.title}
-                      >
+                      <span className="tool-work-link is-pending" key={work.title}>
                         <strong>{work.title}</strong>
                         <small>{work.description}</small>
-                      </a>
+                        <em>Coming soon</em>
+                      </span>
                     );
-                  }
-
-                  return (
-                    <span className="tool-work-link is-pending" key={work.title}>
-                      <strong>{work.title}</strong>
-                      <small>{work.description}</small>
-                      <em>Coming soon</em>
-                    </span>
-                  );
-                })}
-              </div>
+                  })}
+                </div>
+              )}
             </div>
           );
         })}
