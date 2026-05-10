@@ -120,12 +120,10 @@
     opacity: 0.2;
 }
 
-.proficiency-card-visual img {
+.proficiency-topic-svg {
     display: block;
-    width: 112px;
-    height: 82px;
-    object-fit: contain;
-    object-position: center;
+    width: 122px;
+    height: 86px;
     filter: drop-shadow(0 12px 18px rgba(31, 41, 55, 0.12));
 }
 
@@ -551,9 +549,9 @@
         width: 48px;
     }
 
-    .proficiency-card-visual img {
-        width: 76px;
-        height: 58px;
+    .proficiency-topic-svg {
+        width: 80px;
+        height: 60px;
     }
 
     .proficiency-card-copy p {
