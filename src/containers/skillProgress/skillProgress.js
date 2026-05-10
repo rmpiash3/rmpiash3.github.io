@@ -8,7 +8,16 @@ const proficiencyMeta = [
     visualType: "digitalTwin",
     accent: "#5b6cff",
     softAccent: "#dbeafe",
-    spark: "0,42 28,36 56,28 84,30 112,18 140,24",
+    sparkPath:
+      "M4 34 C18 32 30 28 42 26 C56 22 66 24 78 22 C90 20 98 12 110 14 C122 16 130 20 138 19",
+    sparkArea:
+      "M4 34 C18 32 30 28 42 26 C56 22 66 24 78 22 C90 20 98 12 110 14 C122 16 130 20 138 19 L138 44 L4 44 Z",
+    markers: [
+      [42, 26],
+      [78, 22],
+      [110, 14],
+      [138, 19],
+    ],
     bars: [44, 62, 78, 58],
   },
   {
@@ -16,7 +25,16 @@ const proficiencyMeta = [
     visualType: "mechanical",
     accent: "#f97316",
     softAccent: "#ffedd5",
-    spark: "0,36 28,28 56,34 84,22 112,26 140,18",
+    sparkPath:
+      "M4 36 C18 32 28 27 40 29 C52 31 58 36 70 32 C82 27 92 20 104 22 C116 24 126 20 138 16",
+    sparkArea:
+      "M4 36 C18 32 28 27 40 29 C52 31 58 36 70 32 C82 27 92 20 104 22 C116 24 126 20 138 16 L138 44 L4 44 Z",
+    markers: [
+      [40, 29],
+      [70, 32],
+      [104, 22],
+      [138, 16],
+    ],
     bars: [60, 46, 82, 72],
   },
   {
@@ -24,7 +42,16 @@ const proficiencyMeta = [
     visualType: "robotics",
     accent: "#14b8a6",
     softAccent: "#ccfbf1",
-    spark: "0,38 28,24 56,30 84,16 112,22 140,14",
+    sparkPath:
+      "M4 38 C18 32 28 22 42 25 C54 28 62 33 74 28 C86 22 94 14 108 18 C120 22 128 18 138 14",
+    sparkArea:
+      "M4 38 C18 32 28 22 42 25 C54 28 62 33 74 28 C86 22 94 14 108 18 C120 22 128 18 138 14 L138 44 L4 44 Z",
+    markers: [
+      [42, 25],
+      [74, 28],
+      [108, 18],
+      [138, 14],
+    ],
     bars: [50, 72, 58, 80],
   },
   {
@@ -32,7 +59,15 @@ const proficiencyMeta = [
     visualType: "writing",
     accent: "#8b5cf6",
     softAccent: "#ede9fe",
-    spark: "0,40 28,34 56,26 84,20 112,18 140,12",
+    sparkPath:
+      "M4 40 C20 38 32 34 46 30 C62 26 76 20 92 18 C108 16 122 16 138 11",
+    sparkArea:
+      "M4 40 C20 38 32 34 46 30 C62 26 76 20 92 18 C108 16 122 16 138 11 L138 44 L4 44 Z",
+    markers: [
+      [46, 30],
+      [92, 18],
+      [138, 11],
+    ],
     bars: [40, 52, 70, 90],
   },
 ];
@@ -211,7 +246,24 @@ function ProficiencyCard({ exp, index }) {
       <div className="proficiency-card-copy">
         <p>{exp.Stack}</p>
         <svg className="proficiency-sparkline" viewBox="0 0 140 46" aria-hidden="true">
-          <polyline points={meta.spark} />
+          <g className="spark-grid">
+            <line x1="4" y1="12" x2="138" y2="12" />
+            <line x1="4" y1="26" x2="138" y2="26" />
+            <line x1="4" y1="40" x2="138" y2="40" />
+          </g>
+          <path className="spark-area" d={meta.sparkArea} />
+          <path className="spark-curve" d={meta.sparkPath} />
+          {meta.markers.map((point) => {
+            return (
+              <circle
+                className="spark-dot"
+                cx={point[0]}
+                cy={point[1]}
+                r="3.4"
+                key={`${point[0]}-${point[1]}`}
+              />
+            );
+          })}
         </svg>
       </div>
       <div className="proficiency-ring" aria-label={`${exp.Stack} ${exp.progressPercentage}`}>

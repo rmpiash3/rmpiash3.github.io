@@ -137,18 +137,36 @@
 
 .proficiency-sparkline {
     display: block;
-    width: min(210px, 100%);
-    height: 46px;
+    width: min(230px, 100%);
+    height: 52px;
     overflow: visible;
 }
 
-.proficiency-sparkline polyline {
+.spark-grid line {
+    stroke: rgba(100, 116, 139, 0.14);
+    stroke-width: 1;
+    stroke-dasharray: 4 6;
+}
+
+.spark-area {
+    fill: var(--accent);
+    opacity: 0.1;
+}
+
+.spark-curve {
     fill: none;
     stroke: var(--accent);
-    stroke-width: 4;
+    stroke-width: 4.8;
     stroke-linecap: round;
     stroke-linejoin: round;
     filter: drop-shadow(0 8px 12px rgba(99, 102, 241, 0.18));
+}
+
+.spark-dot {
+    fill: #ffffff;
+    stroke: var(--accent);
+    stroke-width: 2.5;
+    filter: drop-shadow(0 4px 8px rgba(31, 41, 55, 0.14));
 }
 
 .proficiency-ring {
@@ -559,7 +577,7 @@
     }
 
     .proficiency-sparkline {
-        height: 34px;
+        height: 40px;
     }
 
     .proficiency-ring {
