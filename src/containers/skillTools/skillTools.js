@@ -121,7 +121,6 @@ function ToolWorkShowcase() {
             >
               <div className="tool-work-card-header">
                 <h3>{tool.Stack}</h3>
-                <span>{tool.progressPercentage}</span>
               </div>
               <ToolWorkLinks tool={tool} />
             </div>
