@@ -56,7 +56,9 @@ class DegreeCard extends Component {
                 <h3 className="duration ml-auto" style={{ color: theme.text }}>
                   {degree.duration}
                 </h3>
-                <h3 className="cgpa ml-auto">CGPA {degree.cgpa}</h3>
+                <h3 className="cgpa ml-auto">
+                  {degree.cgpaLabel || "CGPA"} {degree.cgpa}
+                </h3>
               </div>
             </div>
             <div classname="body-content">

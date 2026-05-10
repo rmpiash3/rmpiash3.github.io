@@ -629,6 +629,22 @@ const degrees = {
   degrees: [
     {
       title: "Dhaka University of Engineering and Technology (DUET)",
+      subtitle:
+        "Master of Science (M.Sc.) in Mechanical Engineering (Control / Manufacturing)",
+      logo_path: "duet_logo.png",
+      alt_name: "DUET",
+      duration: "Nov 2025 - Present",
+      cgpaLabel: "1st Sem. GPA",
+      cgpa: "3.88 / 4.00",
+      descriptions: [
+        "- Continuing M.Sc. study in Mechanical Engineering with a focus on Control / Manufacturing.",
+        "- Completed the first semester with GPA 3.88 / 4.00 and 12.00 credits earned.",
+        "- First semester coursework included Mechanical Behavior of Engineering Materials, Advanced Mechatronics, Advanced Materials Science, and Alternative Fuels for Engines.",
+      ],
+      website_link: "https://duet.ac.bd/",
+    },
+    {
+      title: "Dhaka University of Engineering and Technology (DUET)",
       subtitle: "Bachelor of Science (B.Sc.) in Mechanical Engineering",
       logo_path: "duet_logo.png",
       alt_name: "DUET",
