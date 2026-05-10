@@ -68,7 +68,7 @@
 
 .proficiency-card {
     display: grid;
-    grid-template-columns: 92px minmax(0, 1fr) 88px;
+    grid-template-columns: 132px minmax(0, 1fr) 88px;
     gap: 18px;
     align-items: center;
     min-height: 132px;
@@ -90,34 +90,43 @@
     transition: 0.22s ease;
 }
 
-.proficiency-card-icon {
+.proficiency-card-visual {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 76px;
-    height: 76px;
+    width: 124px;
+    height: 92px;
     border-radius: 20px;
-    color: var(--accent);
     background:
-        radial-gradient(circle at 30% 24%, rgba(255, 255, 255, 0.92), transparent 30%),
-        rgba(255, 255, 255, 0.72);
+        radial-gradient(circle at 36% 28%, rgba(255, 255, 255, 0.94), transparent 30%),
+        linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.48));
     border: 1px solid rgba(31, 41, 55, 0.08);
-    font-family: "Google Sans Bold";
-    font-size: 22px;
-    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.38);
+    box-shadow:
+        inset 0 0 0 5px rgba(255, 255, 255, 0.34),
+        0 12px 26px rgba(31, 41, 55, 0.08);
+    overflow: hidden;
 }
 
-.proficiency-card-icon::after {
+.proficiency-card-visual::after {
     content: "";
     position: absolute;
-    bottom: 13px;
-    left: 18px;
-    width: 40px;
-    height: 5px;
+    bottom: 10px;
+    left: 22px;
+    width: 78px;
+    height: 4px;
     border-radius: 999px;
     background: var(--accent);
-    opacity: 0.28;
+    opacity: 0.2;
+}
+
+.proficiency-card-visual img {
+    display: block;
+    width: 112px;
+    height: 82px;
+    object-fit: contain;
+    object-position: center;
+    filter: drop-shadow(0 12px 18px rgba(31, 41, 55, 0.12));
 }
 
 .proficiency-card-copy p {
@@ -525,22 +534,26 @@
     }
 
     .proficiency-card {
-        grid-template-columns: 64px minmax(0, 1fr) 70px;
+        grid-template-columns: 88px minmax(0, 1fr) 70px;
         gap: 12px;
         min-height: 112px;
         padding: 14px;
     }
 
-    .proficiency-card-icon {
-        width: 58px;
-        height: 58px;
+    .proficiency-card-visual {
+        width: 82px;
+        height: 66px;
         border-radius: 16px;
-        font-size: 17px;
     }
 
-    .proficiency-card-icon::after {
-        left: 14px;
-        width: 30px;
+    .proficiency-card-visual::after {
+        left: 16px;
+        width: 48px;
+    }
+
+    .proficiency-card-visual img {
+        width: 76px;
+        height: 58px;
     }
 
     .proficiency-card-copy p {

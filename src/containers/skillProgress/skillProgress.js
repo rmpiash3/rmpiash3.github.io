@@ -5,6 +5,7 @@ import { techStack } from "../../portfolio";
 const proficiencyMeta = [
   {
     shortName: "DT",
+    image: require("../../assests/images/digital_twin_modeling.svg"),
     accent: "#5b6cff",
     softAccent: "#dbeafe",
     spark: "0,42 28,36 56,28 84,30 112,18 140,24",
@@ -12,6 +13,7 @@ const proficiencyMeta = [
   },
   {
     shortName: "CAD",
+    image: require("../../assests/images/mechanical_design_simulation.svg"),
     accent: "#f97316",
     softAccent: "#ffedd5",
     spark: "0,36 28,28 56,34 84,22 112,26 140,18",
@@ -19,6 +21,7 @@ const proficiencyMeta = [
   },
   {
     shortName: "RB",
+    image: require("../../assests/images/robotics_engineering.svg"),
     accent: "#14b8a6",
     softAccent: "#ccfbf1",
     spark: "0,38 28,24 56,30 84,16 112,22 140,14",
@@ -26,6 +29,7 @@ const proficiencyMeta = [
   },
   {
     shortName: "RT",
+    image: require("../../assests/images/blogs_image.svg"),
     accent: "#8b5cf6",
     softAccent: "#ede9fe",
     spark: "0,40 28,34 56,26 84,20 112,18 140,12",
@@ -48,7 +52,9 @@ function ProficiencyCard({ exp, index }) {
 
   return (
     <div className="proficiency-card" style={cardStyle}>
-      <div className="proficiency-card-icon">{meta.shortName}</div>
+      <div className="proficiency-card-visual">
+        <img src={meta.image} alt="" loading="lazy" />
+      </div>
       <div className="proficiency-card-copy">
         <p>{exp.Stack}</p>
         <svg className="proficiency-sparkline" viewBox="0 0 140 46" aria-hidden="true">
