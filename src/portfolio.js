@@ -401,6 +401,39 @@ const tools = {
           ],
         },
         {
+          title: "Jet Engine Design",
+          description:
+            "CATIA V5 jet engine assembly with housing, shaft, propeller, DXF/STP/STL exports, preview images, and design demonstration videos.",
+          coverImage: "/catia-works/jet-engine-design/image-1.jpg",
+          images: [
+            {
+              title: "Jet Engine Preview 01",
+              path: "/catia-works/jet-engine-design/image-1.jpg",
+            },
+            {
+              title: "Jet Engine Preview 02",
+              path: "/catia-works/jet-engine-design/image-2.jpg",
+            },
+            {
+              title: "Flow Visualization Preview",
+              path: "/catia-works/jet-engine-design/image-3.jpg",
+            },
+          ],
+          sourcePackage:
+            "/catia-works/jet-engine-design/jet-engine-design-catia-files.zip",
+          sourceCount: 7,
+          videos: [
+            {
+              title: "Design Video",
+              path: "/catia-works/jet-engine-design/video-1.mp4",
+            },
+            {
+              title: "Flow Visualization",
+              path: "/catia-works/jet-engine-design/video-2.mp4",
+            },
+          ],
+        },
+        {
           title: "Exhaust Manifold Design",
           description:
             "Exhaust manifold surface and solid design with CATPart source and multiple preview angles.",
