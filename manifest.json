@@ -1,6 +1,6 @@
 {
-  "short_name": "RIAD Portfolio",
-  "name": "RIAD MAHAMUD PIASH Portfolio",
+  "short_name": "RM Piash Research",
+  "name": "RIAD MAHAMUD PIASH — Battery Digital Twin Research Portfolio",
   "icons": [
     {
       "src": "/android-icon-36x36.png",
@@ -39,8 +39,8 @@
       "density": "4.0"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#f3f4f6",
+  "theme_color": "#14232f",
   "background_color": "#f3f4f6"
 }
